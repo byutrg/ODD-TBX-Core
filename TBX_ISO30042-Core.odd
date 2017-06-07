@@ -1,0 +1,848 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tbxodd.rnc" type="compact"?>-->
+<?oxygen RNGSchema="tei_odds.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:sch="http://www.ascc.net/xml/schematron" xmlns:rng="http://relaxng.org/ns/structure/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Systems to manage terminology, knowledge, and content - TermBase eXchange
+                    (TBX)</title>
+
+            </titleStmt>
+            <publicationStmt>
+                <publisher>LTAC Global</publisher>
+                <date>October 29, 2008</date>
+            </publicationStmt>
+            <sourceDesc>
+                <p>This is the Core Structure for TBX</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!-- annex D: Descriptions of the core structure and constraints (in RNG format) (this section includes all the data specifications in ODD declarations-->
+            <div1>
+                <head>Declarations</head>
+                <schemaSpec ident="TBX" start="tbx" ns="http://www.iso.org/ns/TBX">
+                    <specGrpRef target="#spec-macros-entities"/>
+                    <specGrpRef target="#spec-classes-atts"/>
+                    <specGrpRef target="#spec-tbxinline"/>
+                    <specGrpRef target="#spec-term-entries"/>
+                    <specGrpRef target="#spec-other-elements"/>
+                </schemaSpec>
+                
+                <specGrp xml:id="spec-tbxinline">
+                    <elementSpec ident="hi">
+                        <desc> Highlights a segment of text and optionally points to another
+                            element.</desc>
+                        <classes>
+                            <memberOf key="target-IDREF"/>
+                            <memberOf key="lang"/>
+                        </classes>
+                        <content>
+                            <textNode/>
+                        </content>
+                        <attList>
+                            <attDef ident="type">
+                                <valList type="closed">
+                                    <valItem ident="entailedTerm">
+                                        <gloss>entailedTerm</gloss>
+                                        <desc>A term, found in the content of a text element such as
+                                                <tag>descrip type="definition"</tag>, that is
+                                            defined in another terminological entry in the same
+                                            terminological collection.</desc>
+                                    </valItem>
+                                    <valItem ident="hotkey">
+                                        <gloss>hotkey</gloss>
+                                        <desc>A key or a combination of keys on a computer keyboard
+                                            that, when pressed at one time, performs a task (such as
+                                            starting an application) as an alternative to using a
+                                            mouse or other input device. Hotkeys are supported by
+                                            many operating systems and applications (the hotkey is
+                                            indicated by an ampersand in the term and by an
+                                            underscore in the visual display). This type of
+                                                <gi>hi</gi> element allows a hotkey to be identified
+                                            as such in a text field such as a context sentence. To
+                                            identify a hotkey for the head term of an entry, use the
+                                                <val>lionHotkey</val> value of the <att>type</att>
+                                            attribute on a <gi>termNote</gi>.</desc>
+                                    </valItem>
+
+                                    <valItem ident="italics">
+                                        <gloss>italics</gloss>
+                                        <desc>Indicates that the content enclosed in the <gi>hi</gi>
+                                            element must be rendered in italics. </desc>
+                                    </valItem>
+                                    <valItem ident="bold">
+                                        <gloss>bold</gloss>
+                                        <desc>Indicates that the content enclosed in the <gi>hi</gi>
+                                            element must be rendered in boldface. </desc>
+                                    </valItem>
+                                    <valItem ident="superscript">
+                                        <gloss>superscript</gloss>
+                                        <desc>Indicates that the content enclosed in the <gi>hi</gi>
+                                            element must be rendered in superscript. </desc>
+                                    </valItem>
+                                    <valItem ident="subscript">
+                                        <gloss>subscript</gloss>
+                                        <desc>Indicates that the content enclosed in the <gi>hi</gi>
+                                            element must be rendered in subscript.</desc>
+                                    </valItem>
+                                    <valItem ident="math">
+                                        <gloss>math</gloss>
+                                        <desc>Indicates that the content enclosed in the <gi>hi</gi>
+                                            element is mathematical in nature.</desc>
+                                    </valItem>
+                                </valList>
+                            </attDef>
+
+                        </attList>
+                        <exemplum>
+                            <eg><![CDATA[ <hi type="entailedTerm" target="id45">term</hi>]]></eg>
+                        </exemplum>
+                    </elementSpec>
+                    <elementSpec ident="foreign">
+                        <desc>Used to mark a segment of text that is in a different language from
+                            the surrounding text.</desc>
+
+                        <classes>
+                            <memberOf key="idlang"/>
+
+                        </classes>
+                        <content>
+                            <elementRef key="entity.noteText"/>
+                        </content>
+                        <exemplum>
+                            <eg><![CDATA[A <foreign xml:lang="fr">pomme</foreign> is an apple in French.]]></eg>
+                        </exemplum>
+                    </elementSpec>
+                    <elementSpec ident="bpt">
+                        <desc>The <gi>bpt</gi> tag encloses the beginning tag of a tag pair.</desc>
+                        <content>
+                            <textNode/>
+                        </content>
+                        <attList>
+                            <attDef ident="i">
+                                <datatype>
+                                    <textNode/>
+                                </datatype>
+                            </attDef>
+                            <attDef ident="type">
+                                <datatype>
+                                    <textNode/>
+                                </datatype>
+                            </attDef>
+                        </attList>
+                    </elementSpec>
+                    <elementSpec ident="ept">
+                        <desc>The <gi>ept</gi> tag encloses the beginning tag of a tag pair.</desc>
+                        <content>
+                            <textNode/>
+                        </content>
+                        <attList>
+                            <attDef ident="i">
+                                <datatype>
+                                    <textNode/>
+                                </datatype>
+                            </attDef>
+                        </attList>
+                    </elementSpec>
+                    <elementSpec ident="ph">
+                        <desc> Placeholder - Used to encapsulate markup codes that do not occur in
+                            logical pairs with other codes. Examples include the XHTML
+                                <tag>br/</tag> and <tag>hr/</tag> tags. This element should not be
+                            used to encapsulate codes that occur in pairs (such as the XHTML
+                                <tag>em</tag> and <tag>/em</tag> tags), which should instead be
+                            encapuslated with <gi>bpt</gi> and <gi>ept</gi>.</desc>
+                        <content>
+                            <textNode/>
+                        </content>
+                        <attList>
+                            <attDef ident="type">
+                                <datatype>
+                                    <textNode/>
+                                </datatype>
+                            </attDef>
+                        </attList>
+                    </elementSpec>
+                </specGrp>
+
+                <specGrp xml:id="spec-term-entries">
+                    <!--Elements needed for terminological entries, in alphabetical order -->
+                    <elementSpec ident="conceptEntry">
+                        <desc>The root element of a terminological entry. It shall contain at least
+                            one language section.</desc>
+                        <classes>
+                            <memberOf key="id"/>
+                        </classes>
+                        <content>
+                            <elementRef key="entity.auxInfo"/>
+                            <elementRef key="langSec" minOccurs="1" maxOccurs="unbounded"/>
+                            
+                        </content>
+                    </elementSpec>
+                    <elementSpec ident="date">
+                        <desc>A date in ISO format. Permissible date values comply with ISO 8601 and
+                            shall use the format yyyy-mm-dd. The date element is used with
+                            terminology management data-categories in a <gi>transacGrp</gi> element. </desc>
+                        <classes>
+                            <memberOf key="id"/>
+                        </classes>
+                        <content>
+                            <dataRef name="date"/>
+                        </content>
+                    </elementSpec>
+                    <elementSpec ident="langSec">
+                        <desc>A nesting element that contains all the information in a
+                            terminological entry pertaining to one language, including all the
+                                <gi>termSec</gi> elements (terms and associated information) for
+                            that language.</desc>
+                        <content>
+                            <elementRef key="entity.auxInfo"/>
+                            <elementRef key="termSec" minOccurs="1" maxOccurs="unbounded"/>
+                        </content>
+                        <attList>
+                            <attDef ident="xml:lang" usage="req">
+                                <desc>Indicates the language of the language section. This attribute
+                                    is required for the <gi>langSec</gi> element. See also the
+                                    description on the <gi>tbx</gi> element.</desc>
+                                <datatype>
+                                    <!-- to declare the languages used in a TBX document instance, specify the language codes as shown below. This sample markup should
+								be inserted to REPLACE the <text/> element. Substitute the values "en" and "de" with your own language code values, and add  more values as needed.  You can use any language code 
+								format that is supported by IETF RFC 4646 or its successor.
+								Sample markup starts here to replace <text/>
+								<rng:choice>
+								<rng:value>en</rng:value>
+								<rng:value>de</rng:value>
+								</rng:choice>
+								Sample markup ends here to replace <text/>-->
+                                    <textNode/>
+                                </datatype>
+                            </attDef>
+                        </attList>
+
+                        <!-- attributes also include "lang"?? -->
+                    </elementSpec>
+                    <elementSpec ident="note">
+                        <desc>Any kind of note. </desc>
+                        <classes>
+                            <memberOf key="idlang"/>
+                        </classes>
+                        <content>
+                            <elementRef key="entity.noteText"/>
+                        </content>
+                    </elementSpec>
+                    <elementSpec ident="term">
+                        <desc>The term that is being described in a <gi>termSec</gi>. This element,
+                            as well as other term-like elements such as those mentioned in the table
+                                <emph>Types of terms, relations to terms</emph> in section 9, can
+                            contain a <gi>hi</gi> element to allow a limited amount of inline
+                            markup. This is intended to handle markup requirements in special cases
+                            such as may be required for terms that represent scientific concepts.
+                            However, it is strongly recommended to use inline markup only when
+                            necessary to represent the term in its base form. Do not use the
+                                <gi>hi</gi> element for presentational styles chosen for esthetic
+                            purposes.</desc>
+                        <classes>
+                            <memberOf key="id"/>
+                        </classes>
+                        <content>
+                            <elementRef key="entity.basicText"/>
+                        </content>
+                    </elementSpec>
+                    <elementSpec ident="termComp">
+                        <desc>A term component. It includes the text of a part of a word (such as a
+                            morpheme or a syllable) or one of the words making up a multi-word term.
+                            The type of term component will depend on the value of the
+                                <att>type</att> attribute of the <gi>termCompSec</gi>
+                            element.</desc>
+                        <classes>
+                            <memberOf key="idlang"/>
+                        </classes>
+                        <content>
+                            <textNode/>
+                        </content>
+                    </elementSpec>
+                    <elementSpec ident="termCompGrp">
+                        <desc>A grouping element that includes one <gi>termComp</gi> plus additional
+                            elements describing the term component, such as notes, administrative
+                            information, and cross references.</desc>
+                        <classes>
+                            <memberOf key="id"/>
+                        </classes>
+                        <content>
+                            <elementRef key="termComp"/>
+                            <alternate minOccurs="0" maxOccurs="unbounded">
+                                <elementRef key="termNote"/>
+                                <elementRef key="termNoteGrp"/>
+                            </alternate>
+                            <elementRef key="entity.noteLinkInfo"/>
+                        </content>
+                    </elementSpec>
+                    <elementSpec ident="termCompSec">
+                        <desc>A grouping element that contains at least one <gi>termComp</gi>
+                            element (usually more) or at least one <gi>termCompGrp</gi> element plus
+                            optionally some additional information about the term components. This
+                            element is designed to contain the components of a term. The value of
+                            the <att>type</att> attribute indicates what type of term components it
+                            contains.</desc>
+
+                        <classes>
+                            <memberOf key="id"/>
+                        </classes>
+                        <content>
+                            <elementRef key="entity.auxInfo"/>
+                            <alternate minOccurs="1" maxOccurs="unbounded">
+                                <elementRef key="termComp"/>
+                                <elementRef key="termCompGrp"/>
+                            </alternate>
+                        </content>
+
+                        <attList>
+                            <attDef ident="type" usage="req">
+                                <desc>Indicates the type of the <gi>termCompSec</gi>, such as
+                                        <val>hyphenation</val>. The value indicates on what basis
+                                    the term components were identified, such as by hyphenation
+                                    parts or by syllables.</desc>
+                                <valList type="closed">
+                                    <valItem ident="hyphenation">
+                                        <gloss>Hyphenation</gloss>
+                                        <desc>The <gi>termComp</gi> elements contain the parts of a
+                                            term as it would be hyphenated, such as at the end of a
+                                            line, according to a given set of rules.</desc>
+                                        <!-- kara : comment omitted, not essential -->
+                                    </valItem>
+                                    <valItem ident="lemma">
+                                        <gloss>Lemma</gloss>
+                                        <desc>The <gi>termComp</gi> elements contain the base form
+                                            of the term or of the individual words that it
+                                            comprises. A base form of a word or term, sometimes
+                                            called a <term>lemma</term>, is the form that is used as
+                                            the formal dictionary entry for the term. For nouns, the
+                                            base form is frequently the nominative singular form (in
+                                            languages that show variation by case). For adjectives
+                                            it is the positive form of the adjective, as opposed to
+                                            the comparative, and in some languages it is
+                                            uninflected, whereas in others it is the masculine
+                                            singular. For verbs, it is generally the
+                                            infinitive.</desc>
+
+                                    </valItem>
+                                    <valItem ident="morphologicalElement">
+                                        <gloss>Morphological element</gloss>
+                                        <desc>The <gi>termComp</gi> elements contain the individual
+                                            morphemes that comprise the term. .</desc>
+
+                                    </valItem>
+                                    <valItem ident="syllabification">
+                                        <gloss>Syllabification</gloss>
+                                        <desc>The <gi>termComp</gi> elements contain the individual
+                                            syllables that comprise the term.</desc>
+
+                                    </valItem>
+                                    <valItem ident="termElement">
+                                        <gloss>Term element</gloss>
+                                        <desc>The <gi>termComp</gi> elements contain any other
+                                            logically significant portion of the term. </desc>
+                                    </valItem>
+                                </valList>
+                            </attDef>
+                        </attList>
+
+                    </elementSpec>
+                    <elementSpec ident="termSec">
+                        <desc>A <emph>term information group</emph>. A grouping element that
+                            contains child elements describing a term. It is often referred to as
+                            the <emph>term section</emph>.</desc>
+                        <classes>
+                            <memberOf key="id"/>
+                        </classes>
+                        <content>
+                            <elementRef key="term"/>
+
+                            <elementRef key="termNote" minOccurs="0" maxOccurs="unbounded"/>
+
+                            <elementRef key="entity.auxInfo"/>
+
+                            <elementRef key="termCompSec" minOccurs="0" maxOccurs="unbounded"/>
+
+                        </content>
+                    </elementSpec>
+                </specGrp>
+
+
+                <specGrp xml:id="spec-other-elements">
+                    <!-- in hierarchical order -->
+                    <elementSpec ident="tbx">
+                        <desc>The root element of a TBX document instance.</desc>
+
+                        <content>
+                            <elementRef key="tbxHeader"/>
+                            <elementRef key="text"/>
+                        </content>
+                        <attList>
+                            <attDef ident="type" usage="req">
+                                <desc>Indicates the type of tbx document. If the <att>type</att>
+                                    attribute value <val>TBX</val> is used, then the TBX document
+                                    instance shall adhere to the default XCS file. If the TBX
+                                    document instance adheres to another XCS file, then the
+                                        <att>type</att> attribute value can consist of
+                                        <val>TBX-</val> plus another word associated with the XCS
+                                    file, such as 'TBX-Basic'.</desc>
+                                <datatype>
+                                    <textNode/>
+                                </datatype>
+                            </attDef>
+                            <attDef ident="style" usage="req">
+                                <desc>Indicates the style of tbx document, whether it is Data
+                                    Category as Tag (DCT) or Data Category as Attribute (DCA). The
+                                    allowed values are either 'dca' or 'dct'.</desc>
+                                <valList type="closed">
+                                    <valItem ident="dca">
+                                        <desc>Data Category as Attribute</desc>
+                                    </valItem>
+                                    <valItem ident="dct">
+                                        <desc>Data Category as Tag</desc>
+                                    </valItem>
+                                </valList>
+                            </attDef>
+                            <attDef ident="xml:lang" usage="req">
+                                <desc>Indicates the default language of the entire <gi>tbx</gi>
+                                    element content. The allowed values of the <att>xml:lang</att>
+                                    attribute are found in IETF RFC 4646 or its successor, as
+                                    indicated in IETF BCP 47. This attribute is required for the
+                                        <gi>tbx</gi> element.</desc>
+                                <datatype>
+                                    <textNode/>
+                                </datatype>
+                                <remarks>
+                                    <p>The value of the xml:lang attribute inherits downward through
+                                        the XML document unless overridden by another
+                                            <att>xml:lang</att> attribute. </p>
+                                    <p> The language specified in the <gi>tbx</gi> element becomes
+                                        the working language of the entire TBX file. Each
+                                            <gi>langSec</gi> element shall also specify a language
+                                        that applies to that language section. This becomes the
+                                        object language of the language section. Thus, a definition
+                                        at the terminological entry level is assumed to be in the
+                                        working language of the TBX file unless otherwise specified,
+                                        and a note in a language section is assumed to be in the
+                                        same language as the terms in that language section unless
+                                        otherwise specified. </p>
+
+                                </remarks>
+                            </attDef>
+                        </attList>
+                    </elementSpec>
+                    <elementSpec ident="tbxHeader">
+                        <desc>A grouping element that contains child elements which describe the TBX
+                            document instance.</desc>
+                        <classes>
+                            <memberOf key="id"/>
+                        </classes>
+                        <content>
+                            <elementRef key="fileDesc"/>
+                            <elementRef key="encodingDesc" minOccurs="0" maxOccurs="1"/>
+                            <elementRef key="revisionDesc" minOccurs="0" maxOccurs="1"/>
+                        </content>
+                    </elementSpec>
+                    <elementSpec ident="p">
+                        <desc>Paragraph text that is contained by the <gi>tbxHeader</gi>. By using a
+                                <att>type</att> attribute, it can also contain essential information
+                            about the content or location of the XCS file.</desc>
+                        <classes>
+                            <memberOf key="idlang"/>
+
+                        </classes>
+                        <content>
+                            <elementRef key="entity.noteText"/>
+                        </content>
+                        <attList>
+                            <attDef ident="type" usage="opt">
+                                <!-- the following values are only when p is used in encodingDesc -->
+                                <valList type="closed">
+                                    <valItem ident="DCSName">
+                                        <desc>The name of the XCS file that constrains the content
+                                            of the TBX document instance.</desc>
+                                    </valItem>
+                                    <valItem ident="XCSURI">
+                                        <desc>The URI of the XCS file that constrains the content of
+                                            the TBX document instance.</desc>
+                                    </valItem>
+                                    <valItem ident="XCSContent">
+                                        <desc>The content of an XCS file, embedded directly in the
+                                            TBX document instance. Note that this content cannot be
+                                            validated by the TBX DTD and therefore should be removed
+                                            from the TBX document instance, or commented out, prior
+                                            to such validation. </desc>
+                                    </valItem>
+                                </valList>
+                            </attDef>
+                        </attList>
+                    </elementSpec>
+                    <elementSpec ident="fileDesc">
+                        <desc>A nesting element containing child elements that describe the TBX
+                            document instance.</desc>
+                        <classes>
+                            <memberOf key="id"/>
+                        </classes>
+                        <content>
+
+                            <elementRef key="titleStmt" minOccurs="0" maxOccurs="1"/>
+
+
+                            <elementRef key="publicationStmt" minOccurs="0" maxOccurs="1"/>
+
+
+                            <elementRef key="sourceDesc" minOccurs="1" maxOccurs="unbounded"/>
+
+                        </content>
+                    </elementSpec>
+                    <elementSpec ident="titleStmt">
+                        <desc>A nesting element containing the title and any notes about the TBX
+                            document instance.</desc>
+                        <classes>
+                            <memberOf key="idlang"/>
+                        </classes>
+                        <content>
+                            <elementRef key="title"/>
+                            <elementRef key="note" minOccurs="0" maxOccurs="unbounded"/>
+                        </content>
+                    </elementSpec>
+                    <elementSpec ident="title">
+                        <desc>The title of the TBX document instance.</desc>
+                        <classes>
+                            <memberOf key="idlang"/>
+                        </classes>
+                        <content>
+                            <textNode/>
+                        </content>
+                    </elementSpec>
+                    <elementSpec ident="publicationStmt">
+                        <desc>Any information pertaining to the publication of the TBX document
+                            instance.</desc>
+                        <classes>
+                            <memberOf key="id"/>
+                        </classes>
+                        <content>
+                            <elementRef key="p" minOccurs="1" maxOccurs="unbounded"/>
+                        </content>
+                    </elementSpec>
+                    <elementSpec ident="sourceDesc">
+                        <desc>Any information about the source of the TBX document instance.</desc>
+                        <classes>
+                            <memberOf key="idlang"/>
+                        </classes>
+                        <content>
+                            <elementRef key="p" minOccurs="1" maxOccurs="unbounded"/>
+                        </content>
+                    </elementSpec>
+                    <elementSpec ident="encodingDesc">
+                        <desc>Includes a <gi>p</gi> element that itself contains a pointer to the
+                            XCS file and, if the TBX file is not in unicode, any information about
+                            the encoding.</desc>
+                        <classes>
+                            <memberOf key="id"/>
+                        </classes>
+                        <content>
+                            <!--
+				<rng:optional>
+					<elementRef key="ude"/>
+				</rng:optional> -->
+
+                            <elementRef key="p" minOccurs="1" maxOccurs="unbounded"/>
+
+                        </content>
+                    </elementSpec>
+                    <elementSpec ident="revisionDesc">
+                        <desc>Information about any revisions that have been carried out on the
+                            content of the TBX document instance or on the source database from
+                            which it is derived.</desc>
+                        <classes>
+                            <memberOf key="idlang"/>
+                        </classes>
+                        <content>
+                            <elementRef key="change" minOccurs="1" maxOccurs="unbounded"/>
+                        </content>
+                    </elementSpec>
+                    <elementSpec ident="change">
+                        <desc>Information about one particular change event in the revision history
+                            of a TBX document instance.</desc>
+                        <classes>
+                            <memberOf key="idlang"/>
+                        </classes>
+                        <content>
+                            <elementRef key="p" minOccurs="1" maxOccurs="unbounded"/>
+                        </content>
+                    </elementSpec>
+                    <elementSpec ident="text">
+                        <desc>The element of a TBX document instance that occurs after the tbx
+                            element. This element is provided to maintain compatibility with the
+                            TEI.</desc>
+                        <classes>
+                            <memberOf key="id"/>
+                        </classes>
+                        <content>
+                            <!-- removed optional front element -->
+                            <elementRef key="body"/>
+                            <elementRef key="back" minOccurs="0" maxOccurs="1"/>
+                        </content>
+                    </elementSpec>
+                    <elementSpec ident="body">
+                        <!-- here put Other Resources, each in a namespace -->
+                        <desc>A nesting element that contains terminological entries
+                                (<gi>conceptEntry</gi>).</desc>
+                        <classes>
+                            <memberOf key="id"/>
+                        </classes>
+                        <content>
+
+                            <elementRef key="conceptEntry" minOccurs="1" maxOccurs="unbounded"/>
+
+                        </content>
+                    </elementSpec>
+                    <elementSpec ident="back">
+                        <desc>The root element of the back matter of a TBX document instance.</desc>
+                        <classes>
+                            <memberOf key="id"/>
+                        </classes>
+                        <content>
+                            <elementRef key="refObjectSec" minOccurs="0" maxOccurs="unbounded"/>
+                        </content>
+                    </elementSpec>
+                    <elementSpec ident="refObjectSec">
+                        <desc>A list of objects that are referenced in the back matter of a TBX
+                            document instance.</desc>
+                        <classes>
+                            <memberOf key="id"/>
+                        </classes>
+                        <content>
+
+                            <elementRef key="refObject" minOccurs="1" maxOccurs="unbounded"/>
+
+                        </content>
+
+                        <attList>
+                            <attDef ident="type" usage="req">
+                                <datatype>
+                                    <textNode/>
+                                </datatype>
+                            </attDef>
+                        </attList>
+                    </elementSpec>
+                    <elementSpec ident="refObject">
+                        <desc>An element in the back matter of a TBX document instance that contains
+                            a series of items that describe one referenced object.</desc>
+                        <classes>
+                            <memberOf key="id"/>
+                        </classes>
+                        <content>
+                            <alternate minOccurs="1" maxOccurs="unbounded">
+                                <elementRef key="itemSet"/>
+                                <elementRef key="itemGrp"/>
+                                <elementRef key="item"/>
+                            </alternate>
+                        </content>
+                    </elementSpec>
+                    <elementSpec ident="item">
+                        <desc>One descriptor of an object in the back matter of a TBX document
+                            instance.</desc>
+                        <classes>
+                            <memberOf key="idtype"/>
+                        </classes>
+                        <content>
+                            <elementRef key="entity.noteText"/>
+                        </content>
+                    </elementSpec>
+                    <elementSpec ident="itemGrp">
+                        <desc>Contains one <gi>item</gi> element as well as additional child
+                            elements for associated administrative information.</desc>
+                        <classes>
+                            <memberOf key="id"/>
+                        </classes>
+                        <content>
+                            <elementRef key="item"/>
+                            <elementRef key="entity.noteLinkInfo"/>
+                        </content>
+                    </elementSpec>
+                    <elementSpec ident="itemSec">
+                        <desc>A list of <gi>item</gi> or <gi>itemGrp</gi>.</desc>
+                        <classes>
+                            <memberOf key="idtype"/>
+                        </classes>
+                        <content>
+                            <alternate minOccurs="1" maxOccurs="unbounded">
+                                <elementRef key="item"/>
+                                <elementRef key="itemGrp"/>
+                            </alternate>
+                        </content>
+                    </elementSpec>
+                </specGrp>
+
+
+                <specGrp xml:id="spec-macros-entities">
+                    <macroSpec ident="entity.basicText">
+                        <desc>Basic text is used for terms and term-like elements as well as a few
+                            other elements. It allows plainText plus <gi>hi</gi> for some limited
+                            embedded markup.</desc>
+                        <content>
+                            <alternate minOccurs="0" maxOccurs="unbounded">
+                                <textNode/>
+                                <elementRef key="hi"/>
+                            </alternate>
+                        </content>
+                    </macroSpec>
+                    <macroSpec ident="entity.noteText">
+                        <desc>Note text, which is used in definitions and contextual examples and
+                            similar elements, allows more inline markup than basicText.</desc>
+                        <content>
+                            <alternate minOccurs="0" maxOccurs="unbounded">
+                                <textNode/>
+                                <elementRef key="hi"/>
+                                <elementRef key="foreign"/>
+                                <elementRef key="bpt"/>
+                                <elementRef key="ept"/>
+                                <elementRef key="ph"/>
+                            </alternate>
+                        </content>
+                    </macroSpec>
+                    <macroSpec ident="entity.auxInfo">
+                        <desc>The auxInfo entity corresponds to information that can be associated
+                            with any one of three levels: the terminological entry level
+                                (<gi>conceptEntry</gi> (i.e., the concept level), the language level
+                                (<gi>langSec</gi>), and the term level (<gi>termSec</gi>).</desc>
+                        <content>
+                            <alternate minOccurs="0" maxOccurs="unbounded">
+                                <elementRef key="note"/>
+                            </alternate>
+                        </content>
+                    </macroSpec>
+                    <macroSpec ident="entity.noteLinkInfo">
+                        <desc>This entity groups elements for administrative information, notes, and
+                            links. It is used by the following grouping elements:
+                                <gi>termCompGrp</gi>, <gi>termNoteGrp</gi> and
+                            <gi>itemGrp</gi>.</desc>
+                        <content>
+                            <alternate minOccurs="0" maxOccurs="unbounded">
+                                <elementRef key="note"/>
+                            </alternate>
+                        </content>
+                    </macroSpec>
+                </specGrp>
+
+                <specGrp xml:id="spec-classes-atts">
+                    <classSpec ident="idlang" type="atts">
+                        <desc>The idlang attribute class combines the <att>id</att> attribute and
+                            the <att>xml:lang</att> attribute. Both are optional for elements that
+                            use this attribute class. </desc>
+                        <classes>
+                            <memberOf key="id"/>
+                            <memberOf key="lang"/>
+                        </classes>
+                    </classSpec>
+
+                    <classSpec ident="idtype" type="atts">
+                        <desc>The idtype attribute class combines the <att>id</att> attribute and
+                            the <att>type</att> attribute. Both are optional for elements that use
+                            this attribute class. </desc>
+                        <classes>
+                            <memberOf key="id"/>
+                        </classes>
+                        <attList>
+
+                            <attDef ident="type">
+                                <desc>Indicates the type of the meta data-category.</desc>
+                                <datatype>
+                                    <textNode/>
+                                </datatype>
+
+                            </attDef>
+                        </attList>
+
+                    </classSpec>
+
+
+                    <classSpec ident="id" type="atts">
+                        <desc>The id attribute class corresponds to /elementIdentifier/ in ISO
+                            12620. It indicates a unique identifier of an element. Element
+                            identifiers can include entry identifiers (eid-...), concept identifiers
+                            (cid-...), term identifiers (tid-...), among others. This attribute is
+                            optional.</desc>
+                        <attList>
+                            <attDef ident="id">
+                                <datatype>
+                                    <dataRef name="ID"/>
+                                </datatype>
+                            </attDef>
+                        </attList>
+
+                    </classSpec>
+                    <classSpec ident="target-IDREF" type="atts">
+                        <desc>The target-IDREF attribute class corresponds to the <att>target</att>
+                            attribute, which is a pointer to another element. The link is
+                            established when the value of the <att>target</att> attribute of the
+                            source element is the same as the value of the <att>xml:id</att>
+                            attribute of the <emph>target</emph> element. When this attribute is
+                            used with <gi>termNote</gi>, the target is often another term, such as
+                            in the tag <tag>termNote type='abbreviatedFormFor'
+                                target='tid-1234'</tag>. It is also available for the data-category
+                                <val>transferComment</val> to indicate the term being commented
+                            about. The pointer is a unique identifier. The content of elements that
+                            take this attribute is typically the display value of the target
+                            element, such as the target term. The elements that take this attribute
+                            cannot be empty; display content is mandatory. In respect of the
+                            principle of term autonomy, any term that is contained by this element
+                            should have its own entry in the data collection.</desc>
+                        <attList>
+                            <attDef ident="target">
+                                <datatype>
+                                    <dataRef name="IDREF"/>
+                                </datatype>
+                            </attDef>
+                        </attList>
+                    </classSpec>
+
+                    <classSpec ident="lang" type="atts">
+                        <desc>The lang attribute class corresponds to the attribute
+                                <att>xml:lang</att>.</desc>
+                        <attList>
+                            <attDef ident="xml:lang">
+                                <desc>Indicates the language of the element content. The allowed
+                                    values are found in IETF RFC 4646 or its successor. This
+                                    attribute is optional for elements that use this attribute
+                                    class. For a description, see the information at the
+                                        <gi>tbx</gi> element.</desc>
+                                <datatype>
+                                    <textNode/>
+                                </datatype>
+                            </attDef>
+                        </attList>
+                    </classSpec>
+
+
+                    <classSpec ident="IDLangTgtDtyp" type="atts">
+                        <!-- kara - removed type because this has to be defined with unique values for each meta data-category -->
+                        <desc>This attribute class groups together the attributes <att>id</att>,
+                                <att>xml:lang</att>, <att>target</att> and
+                            <att>datatype</att></desc>
+                        <classes>
+                            <memberOf key="lang"/>
+                            <memberOf key="id"/>
+                            <memberOf key="target-IDREF"/>
+                        </classes>
+                        <attList>
+                            <attDef ident="datatype">
+                                <desc>The data type of plainText, or what is known as PCDATA.</desc>
+                                <datatype>
+                                    <textNode/>
+                                </datatype>
+                            </attDef>
+                        </attList>
+
+                    </classSpec>
+                    <!-- end of part added by Sebastian -->
+                </specGrp>
+            </div1>
+        </body>
+    </text>
+</TEI>
