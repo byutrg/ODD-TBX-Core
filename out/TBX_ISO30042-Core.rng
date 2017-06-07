@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<grammar xmlns="http://relaxng.org/ns/structure/1.0"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
+         ns="http://www.iso.org/ns/TBX"><!--
+Schema generated from ODD source 2017-06-01T10:25:14Z. .
+TEI Edition: Version 2.8.0. Last updated on
+	6th April 2015, revision 13197
+TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 2.8.0/
+  
+--><!---->
+   <sch:ns xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+           prefix="tei"
+           uri="http://www.tei-c.org/ns/1.0"/>
+   <define name="entity.basicText">
+      <zeroOrMore>
+         <choice>
+                                <text/>
+                                <ref name="hi"/>
+                            </choice>
+      </zeroOrMore>
+   </define>
+   <define name="entity.noteText">
+      <zeroOrMore>
+         <choice>
+                                <text/>
+                                <ref name="hi"/>
+                                <ref name="foreign"/>
+                                <ref name="bpt"/>
+                                <ref name="ept"/>
+                                <ref name="ph"/>
+                            </choice>
+      </zeroOrMore>
+   </define>
+   <define name="entity.auxInfo">
+      <zeroOrMore>
+         <choice>
+                                <ref name="note"/>
+                            </choice>
+      </zeroOrMore>
+   </define>
+   <define name="entity.noteLinkInfo">
+      <zeroOrMore>
+         <choice>
+                                <ref name="note"/>
+                            </choice>
+      </zeroOrMore>
+   </define>
+   <define name="idlang.attributes">
+      <ref name="id.attributes"/>
+      <ref name="lang.attributes"/>
+   </define>
+   <define name="idtype.attributes">
+      <ref name="id.attributes"/>
+      <ref name="idtype.attribute.type"/>
+   </define>
+   <define name="idtype.attribute.type">
+      <optional>
+         <attribute name="type">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Indicates the type of the meta data-category.</a:documentation>
+            <text/>
+         </attribute>
+      </optional>
+   </define>
+   <define name="id.attributes">
+      <ref name="id.attribute.id"/>
+   </define>
+   <define name="id.attribute.id">
+      <optional>
+         <attribute name="id">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         </attribute>
+      </optional>
+   </define>
+   <define name="target-IDREF.attributes">
+      <ref name="target-IDREF.attribute.target"/>
+   </define>
+   <define name="target-IDREF.attribute.target">
+      <optional>
+         <attribute name="target">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         </attribute>
+      </optional>
+   </define>
+   <define name="lang.attributes">
+      <ref name="lang.attribute.xmllang"/>
+   </define>
+   <define name="lang.attribute.xmllang">
+      <optional>
+         <attribute name="xml:lang">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Indicates the language of the element content. The allowed values are found in IETF RFC 4646 or its successor. This attribute is optional for elements that use this attribute class. For a description, see the information at the tbx element.</a:documentation>
+            <text/>
+         </attribute>
+      </optional>
+   </define>
+   <define name="hi">
+      <element name="hi">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Highlights a segment of text and optionally points to another element.</a:documentation>
+         <text/>
+         <ref name="target-IDREF.attributes"/>
+         <ref name="lang.attributes"/>
+         <optional>
+            <attribute name="type">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <choice>
+                  <value>entailedTerm</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(entailedTerm) A term, found in the content of a text element such as , that is defined in another terminological entry in the same terminological collection.</a:documentation>
+                  <value>hotkey</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(hotkey) A key or a combination of keys on a computer keyboard that, when pressed at one time, performs a task (such as starting an application) as an alternative to using a mouse or other input device. Hotkeys are supported by many operating systems and applications (the hotkey is indicated by an ampersand in the term and by an underscore in the visual display). This type of hi element allows a hotkey to be identified as such in a text field such as a context sentence. To identify a hotkey for the head term of an entry, use the lionHotkey value of the type attribute on a termNote.</a:documentation>
+                  <value>italics</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(italics) Indicates that the content enclosed in the hi element must be rendered in italics.</a:documentation>
+                  <value>bold</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(bold) Indicates that the content enclosed in the hi element must be rendered in boldface.</a:documentation>
+                  <value>superscript</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(superscript) Indicates that the content enclosed in the hi element must be rendered in superscript.</a:documentation>
+                  <value>subscript</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(subscript) Indicates that the content enclosed in the hi element must be rendered in subscript.</a:documentation>
+                  <value>math</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(math) Indicates that the content enclosed in the hi element is mathematical in nature.</a:documentation>
+               </choice>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="foreign">
+      <element name="foreign">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Used to mark a segment of text that is in a different language from the surrounding text.</a:documentation>
+         <ref name="entity.noteText"/>
+         <ref name="idlang.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="bpt">
+      <element name="bpt">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">The bpt tag encloses the beginning tag of a tag pair.</a:documentation>
+         <text/>
+         <optional>
+            <attribute name="i">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <text/>
+            </attribute>
+         </optional>
+         <optional>
+            <attribute name="type">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <text/>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="ept">
+      <element name="ept">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">The ept tag encloses the beginning tag of a tag pair.</a:documentation>
+         <text/>
+         <optional>
+            <attribute name="i">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <text/>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="ph">
+      <element name="ph">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Placeholder - Used to encapsulate markup codes that do not occur in logical pairs with other codes. Examples include the XHTML  and  tags. This element should not be used to encapsulate codes that occur in pairs (such as the XHTML  and  tags), which should instead be encapuslated with bpt and ept.</a:documentation>
+         <text/>
+         <optional>
+            <attribute name="type">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <text/>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="conceptEntry">
+      <element name="conceptEntry">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">The root element of a terminological entry. It shall contain at least one language section.</a:documentation>
+         <ref name="entity.auxInfo"/>
+         <oneOrMore>
+            <ref name="langSec"/>
+         </oneOrMore>
+         <ref name="id.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="date">
+      <element name="date">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">A date in ISO format. Permissible date values comply with ISO 8601 and shall use the format yyyy-mm-dd. The date element is used with terminology management data-categories in a transacGrp element.</a:documentation>
+         <ref name="date"/>
+         <ref name="id.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="langSec">
+      <element name="langSec">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">A nesting element that contains all the information in a terminological entry pertaining to one language, including all the termSec elements (terms and associated information) for that language.</a:documentation>
+         <ref name="entity.auxInfo"/>
+         <oneOrMore>
+            <ref name="termSec"/>
+         </oneOrMore>
+         <attribute name="xml:lang">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Indicates the language of the language section. This attribute is required for the langSec element. See also the description on the tbx element.</a:documentation>
+            <text/>
+         </attribute>
+         <empty/>
+      </element>
+   </define>
+   <define name="note">
+      <element name="note">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Any kind of note. </a:documentation>
+         <ref name="entity.noteText"/>
+         <ref name="idlang.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="term">
+      <element name="term">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">The term that is being described in a termSec. This element, as well as other term-like elements such as those mentioned in the table Types of terms, relations to terms in section 9, can contain a hi element to allow a limited amount of inline markup. This is intended to handle markup requirements in special cases such as may be required for terms that represent scientific concepts. However, it is strongly recommended to use inline markup only when necessary to represent the term in its base form. Do not use the hi element for presentational styles chosen for esthetic purposes.</a:documentation>
+         <ref name="entity.basicText"/>
+         <ref name="id.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="termComp">
+      <element name="termComp">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">A term component. It includes the text of a part of a word (such as a morpheme or a syllable) or one of the words making up a multi-word term. The type of term component will depend on the value of the type attribute of the termCompSec element.</a:documentation>
+         <text/>
+         <ref name="idlang.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="termCompGrp">
+      <element name="termCompGrp">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">A grouping element that includes one termComp plus additional elements describing the term component, such as notes, administrative information, and cross references.</a:documentation>
+         <ref name="termComp"/>
+         <zeroOrMore>
+            <empty/>
+         </zeroOrMore>
+         <ref name="entity.noteLinkInfo"/>
+         <ref name="id.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="termCompSec">
+      <element name="termCompSec">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">A grouping element that contains at least one termComp element (usually more) or at least one termCompGrp element plus optionally some additional information about the term components. This element is designed to contain the components of a term. The value of the type attribute indicates what type of term components it contains.</a:documentation>
+         <ref name="entity.auxInfo"/>
+         <oneOrMore>
+            <choice>
+                                <ref name="termComp"/>
+                                <ref name="termCompGrp"/>
+                            </choice>
+         </oneOrMore>
+         <ref name="id.attributes"/>
+         <attribute name="type">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Indicates the type of the termCompSec, such as hyphenation. The value indicates on what basis the term components were identified, such as by hyphenation parts or by syllables.</a:documentation>
+            <choice>
+               <value>hyphenation</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Hyphenation) The termComp elements contain the parts of a term as it would be hyphenated, such as at the end of a line, according to a given set of rules.</a:documentation>
+               <value>lemma</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Lemma) The termComp elements contain the base form of the term or of the individual words that it comprises. A base form of a word or term, sometimes called a lemma, is the form that is used as the formal dictionary entry for the term. For nouns, the base form is frequently the nominative singular form (in languages that show variation by case). For adjectives it is the positive form of the adjective, as opposed to the comparative, and in some languages it is uninflected, whereas in others it is the masculine singular. For verbs, it is generally the infinitive.</a:documentation>
+               <value>morphologicalElement</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Morphological element) The termComp elements contain the individual morphemes that comprise the term. .</a:documentation>
+               <value>syllabification</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Syllabification) The termComp elements contain the individual syllables that comprise the term.</a:documentation>
+               <value>termElement</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Term element) The termComp elements contain any other logically significant portion of the term.</a:documentation>
+            </choice>
+         </attribute>
+         <empty/>
+      </element>
+   </define>
+   <define name="termSec">
+      <element name="termSec">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">A term information group. A grouping element that contains child elements describing a term. It is often referred to as the term section.</a:documentation>
+         <ref name="term"/>
+         <ref name="entity.auxInfo"/>
+         <zeroOrMore>
+            <ref name="termCompSec"/>
+         </zeroOrMore>
+         <ref name="id.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="tbx">
+      <element name="tbx">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">The root element of a TBX document instance.</a:documentation>
+         <ref name="tbxHeader"/>
+         <ref name="text"/>
+         <attribute name="type">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Indicates the type of tbx document. If the type attribute value TBX is used, then the TBX document instance shall adhere to the default XCS file. If the TBX document instance adheres to another XCS file, then the type attribute value can consist of TBX- plus another word associated with the XCS file, such as 'TBX-Basic'.</a:documentation>
+            <text/>
+         </attribute>
+         <attribute name="style">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Indicates the style of tbx document, whether it is Data Category as Tag (DCT) or Data Category as Attribute (DCA). The allowed values are either 'dca' or 'dct'.</a:documentation>
+            <choice>
+               <value>dca</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Data Category as Attribute</a:documentation>
+               <value>dct</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Data Category as Tag</a:documentation>
+            </choice>
+         </attribute>
+         <attribute name="xml:lang">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Indicates the default language of the entire tbx element content. The allowed values of the xml:lang attribute are found in IETF RFC 4646 or its successor, as indicated in IETF BCP 47. This attribute is required for the tbx element.</a:documentation>
+            <text/>
+         </attribute>
+         <empty/>
+      </element>
+   </define>
+   <define name="tbxHeader">
+      <element name="tbxHeader">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">A grouping element that contains child elements which describe the TBX document instance.</a:documentation>
+         <ref name="fileDesc"/>
+         <optional>
+            <ref name="encodingDesc"/>
+         </optional>
+         <optional>
+            <ref name="revisionDesc"/>
+         </optional>
+         <ref name="id.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="p">
+      <element name="p">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Paragraph text that is contained by the tbxHeader. By using a type attribute, it can also contain essential information about the content or location of the XCS file.</a:documentation>
+         <ref name="entity.noteText"/>
+         <ref name="idlang.attributes"/>
+         <optional>
+            <attribute name="type">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <choice>
+                  <value>DCSName</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">The name of the XCS file that constrains the content of the TBX document instance.</a:documentation>
+                  <value>XCSURI</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">The URI of the XCS file that constrains the content of the TBX document instance.</a:documentation>
+                  <value>XCSContent</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">The content of an XCS file, embedded directly in the TBX document instance. Note that this content cannot be validated by the TBX DTD and therefore should be removed from the TBX document instance, or commented out, prior to such validation. </a:documentation>
+               </choice>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="fileDesc">
+      <element name="fileDesc">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">A nesting element containing child elements that describe the TBX document instance.</a:documentation>
+         <optional>
+            <ref name="titleStmt"/>
+         </optional>
+         <optional>
+            <ref name="publicationStmt"/>
+         </optional>
+         <oneOrMore>
+            <ref name="sourceDesc"/>
+         </oneOrMore>
+         <ref name="id.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="titleStmt">
+      <element name="titleStmt">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">A nesting element containing the title and any notes about the TBX document instance.</a:documentation>
+         <ref name="title"/>
+         <zeroOrMore>
+            <ref name="note"/>
+         </zeroOrMore>
+         <ref name="idlang.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="title">
+      <element name="title">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">The title of the TBX document instance.</a:documentation>
+         <text/>
+         <ref name="idlang.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="publicationStmt">
+      <element name="publicationStmt">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Any information pertaining to the publication of the TBX document instance.</a:documentation>
+         <oneOrMore>
+            <ref name="p"/>
+         </oneOrMore>
+         <ref name="id.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="sourceDesc">
+      <element name="sourceDesc">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Any information about the source of the TBX document instance.</a:documentation>
+         <oneOrMore>
+            <ref name="p"/>
+         </oneOrMore>
+         <ref name="idlang.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="encodingDesc">
+      <element name="encodingDesc">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Includes a p element that itself contains a pointer to the XCS file and, if the TBX file is not in unicode, any information about the encoding.</a:documentation>
+         <oneOrMore>
+            <ref name="p"/>
+         </oneOrMore>
+         <ref name="id.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="revisionDesc">
+      <element name="revisionDesc">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Information about any revisions that have been carried out on the content of the TBX document instance or on the source database from which it is derived.</a:documentation>
+         <oneOrMore>
+            <ref name="change"/>
+         </oneOrMore>
+         <ref name="idlang.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="change">
+      <element name="change">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Information about one particular change event in the revision history of a TBX document instance.</a:documentation>
+         <oneOrMore>
+            <ref name="p"/>
+         </oneOrMore>
+         <ref name="idlang.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="text">
+      <element name="text">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">The element of a TBX document instance that occurs after the tbx element. This element is provided to maintain compatibility with the TEI.</a:documentation>
+         <ref name="body"/>
+         <optional>
+            <ref name="back"/>
+         </optional>
+         <ref name="id.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="body">
+      <element name="body">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">A nesting element that contains terminological entries (conceptEntry).</a:documentation>
+         <oneOrMore>
+            <ref name="conceptEntry"/>
+         </oneOrMore>
+         <ref name="id.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="back">
+      <element name="back">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">The root element of the back matter of a TBX document instance.</a:documentation>
+         <zeroOrMore>
+            <ref name="refObjectSec"/>
+         </zeroOrMore>
+         <ref name="id.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="refObjectSec">
+      <element name="refObjectSec">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">A list of objects that are referenced in the back matter of a TBX document instance.</a:documentation>
+         <oneOrMore>
+            <ref name="refObject"/>
+         </oneOrMore>
+         <ref name="id.attributes"/>
+         <attribute name="type">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            <text/>
+         </attribute>
+         <empty/>
+      </element>
+   </define>
+   <define name="refObject">
+      <element name="refObject">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">An element in the back matter of a TBX document instance that contains a series of items that describe one referenced object.</a:documentation>
+         <oneOrMore>
+            <choice>
+                                
+                                <ref name="itemGrp"/>
+                                <ref name="item"/>
+                            </choice>
+         </oneOrMore>
+         <ref name="id.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="item">
+      <element name="item">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">One descriptor of an object in the back matter of a TBX document instance.</a:documentation>
+         <ref name="entity.noteText"/>
+         <ref name="idtype.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="itemGrp">
+      <element name="itemGrp">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Contains one item element as well as additional child elements for associated administrative information.</a:documentation>
+         <ref name="item"/>
+         <ref name="entity.noteLinkInfo"/>
+         <ref name="id.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <start>
+      <choice>
+         <ref name="tbx"/>
+      </choice>
+   </start>
+</grammar>
