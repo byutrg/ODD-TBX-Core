@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://www.w3.org/XML/1998/namespace" xmlns:tbx="http://www.iso.org/ns/TBX">
+  <xs:import namespace="http://www.iso.org/ns/TBX" schemaLocation="TBX_ISO30042-Core.xsd"/>
+  <xs:attributeGroup name="lang">
+    <xs:attribute name="lang" use="required" form="qualified">
+      <xs:annotation>
+        <xs:documentation>Indicates the language of the element content. The allowed values are found in IETF RFC 4646 or its successor. This attribute is optional for elements that use this attribute class. For a description, see the information at the tbx element.</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="lang1">
+    <xs:attribute name="lang" use="required" form="qualified">
+      <xs:annotation>
+        <xs:documentation>Indicates the language of the language section. This attribute is required for the langSec element. See also the description on the tbx element.</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="lang2">
+    <xs:attribute name="lang" use="required" form="qualified">
+      <xs:annotation>
+        <xs:documentation>Indicates the default language of the entire tbx element content. The allowed values of the xml:lang attribute are found in IETF RFC 4646 or its successor, as indicated in IETF BCP 47. This attribute is required for the tbx element.</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:attributeGroup>
+</xs:schema>

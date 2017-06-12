@@ -1,0 +1,3955 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen NVDLSchema="file:/Z:/Users/Serdo/Dropbox/Work/TRG/TBX/synchroTBX%20-%20new/TBX-Basic/BasicNVDL.nvdl"?>
+<tbx type="TBX-Basic" style="dca" xml:lang="en" xmlns="http://www.iso.org/ns/TBX">
+	<tbxHeader>
+		<fileDesc>
+			<sourceDesc>
+				<p>TBX file, created via MultiTerm Export</p>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<p type="XCSURI">TBXBasicXCSV02.xcs </p>
+		</encodingDesc>
+	</tbxHeader>
+
+	<text>
+		<body>
+			<conceptEntry id="c1">
+				<note>origination</note>
+				<note>2010-04-17</note>
+				<note>Tommy</note>
+				<note>modification</note>
+				<note>2010-05-01</note>
+				<note>Tommy</note>
+
+				<note>General</note>
+				<note>Open_Cluster.JPG</note>
+				<note>G-Source: http://www.physics.drexel.edu/observatory/dump.shtml</note>
+				<langSec xml:lang="en">
+
+					<note>origination</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+					<note>modification</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+					<note>origination</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+					<note>modification</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>A group of stars formed together in the spiral arms of a galaxy.</note>
+					<note>Oxford2007</note>
+
+					<termSec>
+						<term>open cluster</term>
+
+
+						<note>noun</note>
+						<note>preferredTerm-admn-sts</note>
+
+						<note>Over 1100 open clusters are known in our Milky Way Galaxy, and this is
+							probably only a small percentage of the total population which is
+							probably some factor higher; estimates of as many as about 100,000 Milky
+							Way open clusters have been given. </note>
+						<note>http://seds.org/MESSIER/open.html</note>
+
+					</termSec>
+					<termSec>
+						<term>galactic cluster</term>
+
+
+						<note>noun</note>
+						<note>supersededTerm-admn-sts</note>
+
+						<note>In contrast, the galactic cluster represented by M29 is a grouping of
+							stars—a “knot” of stars in the stellar backdrop.</note>
+						<note>http://www.eastbayastro.org/2000/0900/r0900-8.htm</note>
+
+						<note>Another name for an open star cluster. They are often termed Galactic
+							Clusters because they are found mainly in the plane of our galaxy. If
+							you were to view our galaxy from afar, you would find that all the
+							open/galactic clusters lie within the spiral arms of the galaxy.</note>
+						<note>N-Source:
+							http://www.delscope.demon.co.uk/astronomy/glossary.htm#G</note>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="es">
+
+					<note>origination</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>Una acumulación de una docena hasta varios miles de jóvenes estrellas en
+						el plano de las galaxias.</note>
+					<note>http://www.espacioprofundo.com.ar/diccionario/Glosario_de_Astronomia/vertermino/Cumulo_abierto.html</note>
+
+					<termSec>
+						<term>cúmulo abierto</term>
+
+
+						<note>noun</note>
+
+						<note>M7 es uno de los cúmulos abiertos estelares más prominentes del cielo.
+							El cúmulo, dominado por brillantes estrellas azules, puede ser visto a
+							ojo desnudo en un cielo oscuro en la cola de la constelación del
+							Escorpión (Scorpius).Contiene unas 100 estrellas en total, tiene una
+							edad aproximada de 200 millones de años, mide 25 años luz de ancho, y se
+							encuentra a unos 1000 años luz de distancia.</note>
+						<note>http://observatorio.info/2009/11/m7-cumulo-abierto-en-scorpius-2/</note>
+
+					</termSec>
+				</langSec>
+			</conceptEntry>
+
+
+			<conceptEntry id="c2">
+
+				<note>origination</note>
+				<note>2010-04-17</note>
+				<note>Tommy</note>
+
+
+				<note>modification</note>
+				<note>2010-04-24</note>
+				<note>Tommy</note>
+
+				<note>Stellar Birth</note>
+				<note>Accretion_Disk.jpg</note>
+				<note>G-Source:
+					http://www.cfht.hawaii.edu/Instruments/Spectroscopy/Espadons/www.ast.obs-mip.fr/users/donati/press/fuori_eng.html</note>
+				<langSec xml:lang="en">
+
+					<note>origination</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>origination</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>origination</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>A structure that forms around a compact object (e.g. a white dwarf,
+						neutron star, or black hole) when matter flows towards it.</note>
+					<note>Oxford2007</note>
+
+					<termSec>
+						<term>circumstellar accretion disk</term>
+
+
+						<note>noun</note>
+						<note>preferredTerm-admn-sts</note>
+						<note>fullForm</note>
+
+						<note>In contrast with the violence of merging, the gradual growth of
+							massive stars by accretion is likely to produce less infrared
+							variability, relatively thin circumstellar accretion disks that maintain
+							their orientation, and collimated bipolar outflows that are scaled-up
+							versions of those produced by low-mass young stellar objects.</note>
+						<note>Bally2005</note>
+
+					</termSec>
+					<termSec>
+						<term>accretion disc</term>
+
+
+						<note>noun</note>
+						<note>admittedTerm-admn-sts</note>
+
+						<note>Accretion Disc Evolution in Single and Binary T Tauri Stars</note>
+						<note>http://cdsweb.cern.ch/record/369655</note>
+
+					</termSec>
+					<termSec>
+						<term>circumstellar disk</term>
+
+
+						<note>noun</note>
+						<note>admittedTerm-admn-sts</note>
+
+						<note>Our results suggest a scenario of a central star accreting material
+							from a circumstellar disc at the centre of a cool extended rotating
+							torus, while driving a fast bipolar wind. </note>
+						<note>http://adsabs.harvard.edu/abs/2010MNRAS.402.1504D</note>
+
+					</termSec>
+				</langSec>
+				<langSec xml:lang="es">
+
+					<note>origination</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>origination</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>Una estructura en forma de disco alrededor de un objeto central masivo que
+						alimenta el cuerpo central siendo atraido por éste y contribuye a su aumento
+						de masa.</note>
+					<note>http://es.wikipedia.org/wiki/Disco_de_acreci%C3%B3n</note>
+
+					<termSec>
+						<term>disco de acreción</term>
+
+
+						<note>noun</note>
+						<note>preferredTerm-admn-sts</note>
+
+						<note>Lo que alimenta esta actividad es el gas extraído de la estrella
+							normal, que, cayendo en espiral hacia el agujero negro, se acumula en un
+							denso disco de acreción.</note>
+						<note>http://www.amazings.com/ciencia/noticias/010210e.html</note>
+
+					</termSec>
+					<termSec>
+						<term>disco de acrecimiento</term>
+
+
+						<note>noun</note>
+						<note>admittedTerm-admn-sts</note>
+
+						<note>Imágenes de estrellas jóvenes con discos de acrecimeinto y chorros
+							colimados de material, tomadas con el telescopio espacial Hubble.</note>
+						<note>http://www.laeff.inta.es/index.php?op=modload&amp;name=phpWiki&amp;file=index&amp;pagename=Research-Brown%20Dwarfs-BD_esp-DiscosAcrecimiento</note>
+
+					</termSec>
+				</langSec>
+			</conceptEntry>
+
+
+			<conceptEntry id="c3">
+
+				<note>origination</note>
+				<note>2010-04-17</note>
+				<note>Tommy</note>
+
+
+				<note>modification</note>
+				<note>2010-05-01</note>
+				<note>Tommy</note>
+
+				<note>Stellar Death</note>
+				<note>Black_Hole.jpg</note>
+				<note>G-Source: http://wallpaper-s.org/12__Supermassive_Black_Hole.htm</note>
+				<langSec xml:lang="en">
+
+					<note>origination</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>A region of space where the gravitational force is so strong that not even
+						light can escape from it.</note>
+					<note>Cambridge2007</note>
+
+					<termSec>
+						<term>black hole</term>
+
+
+						<note>noun</note>
+
+						<note>As matter spirals toward and into the black hole, some of its
+							gravitational potential energy may be efficiently converted into
+							relativistic jets launched by the magnetic field along the spin
+							axis.</note>
+						<note>Bally2005</note>
+
+					</termSec>
+				</langSec>
+				<langSec xml:lang="es">
+
+					<note>origination</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>Un punto super-denso en el espacio formado por el colapso de una estrella
+						donde nada puede escapar de su influencia gravitacional. </note>
+					<note>www.atlasoftheuniverse.com/espanol/glossary.html</note>
+
+					<termSec>
+						<term>agujero negro</term>
+
+
+						<note>noun</note>
+
+						<note>En teoría un agujero negro se origina hacia el final de la vida de una
+							estrella, cuando ésta se contrae mas allá de un límite determinado -
+							conocido como radio de Schwarzschild - y se hace más pequeña y mas densa
+							que una estrella de neutrones, tanto que ni la luz puede escapar de su
+							campo gravitatorio.</note>
+						<note>http://html.rincondelvago.com/agujeros-negros_5.html</note>
+
+					</termSec>
+				</langSec>
+			</conceptEntry>
+
+
+			<conceptEntry id="c4">
+
+				<note>origination</note>
+				<note>2010-04-17</note>
+				<note>Tommy</note>
+
+
+				<note>modification</note>
+				<note>2010-05-01</note>
+				<note>Tommy</note>
+
+				<note>General</note>
+				<note>Gamma_Ray_Burst.jpg</note>
+				<note>G-Source:
+					http://nakedmaninthetree.wordpress.com/2009/02/22/galaxies-and-the-future/</note>
+				<langSec xml:lang="en">
+
+					<note>origination</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>origination</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>A temporary intese burst of gamma rays and X-rays from a cosmic
+						source.</note>
+					<note>Cambridge2007</note>
+
+					<termSec>
+						<term>gamma-ray burst</term>
+
+
+						<note>noun</note>
+						<note>fullForm</note>
+
+						<note>The extremely rare merger of two stars close to the upper-mass end of
+							the initial mass function may be a possible pathway to
+							hypernova-generated gamma-ray bursts.</note>
+						<note>Bally2005</note>
+
+					</termSec>
+					<termSec>
+						<term>GRB</term>
+
+
+						<note>noun</note>
+						<note>acronym</note>
+
+						<note>The off-axis collisions and merging of stars near the top of the
+							stellar mass spectrum may result in the production of GRBs.</note>
+						<note>Bally2005</note>
+
+					</termSec>
+				</langSec>
+				<langSec xml:lang="es">
+
+					<note>origination</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>origination</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>Destellos de rayos gamma que pueden durar desde unos nanosegundos hasta
+						cerca de una hora.</note>
+					<note>http://es.wikipedia.org/wiki/Brote_de_rayos_gamma</note>
+
+					<termSec>
+						<term>explosión de rayos gamma</term>
+
+
+						<note>noun</note>
+
+						<note>Una poderosa explosión de rayos gamma, detectada el 19 de marzo por el
+							satélite Swift, de la NASA, batió el récord como el objeto más distante
+							que se pudo observar a simple vista.</note>
+						<note>http://ciencia.nasa.gov/headlines/y2008/21mar_nakedeye.htm</note>
+
+					</termSec>
+					<termSec>
+						<term>brote de rayos gamma</term>
+
+
+						<note>noun</note>
+
+						<note>John Ellis (entrevistado por Punset en su despacho en el CERN en un
+							programa de Redes) y sus colaboradores mostraron cómo utilizar las
+							propiedades de los grandes brotes de rayos gamma (gamma-ray bursters o
+							GRBs) para responder a esta cuestión.</note>
+						<note>http://francisthemulenews.wordpress.com/2009/02/21/el-mayor-brote-de-rayos-gamma-grb-080916c-acerca-la-gravedad-cuantica-al-mundo-de-planck/</note>
+
+					</termSec>
+				</langSec>
+			</conceptEntry>
+
+
+			<conceptEntry id="c5">
+
+				<note>origination</note>
+				<note>2010-04-17</note>
+				<note>Tommy</note>
+
+
+				<note>modification</note>
+				<note>2010-05-01</note>
+				<note>Tommy</note>
+
+				<note>General</note>
+				<note>Globular_Cluster.jpg</note>
+				<note>G-Source: http://www.astrographics.com/GalleryPrintsIndex/GP0046.html</note>
+				<langSec xml:lang="en">
+
+					<note>origination</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>A roughly spherical group of old stars in the halo of the galaxy.</note>
+					<note>Oxford2007</note>
+
+					<termSec>
+						<term>globular cluster</term>
+
+
+						<note>noun</note>
+
+						<note>Although the standard accretion scenario may well explain the
+							formation of most massive stars, the existence of blue stragglers in
+							globular clusters indicates that mergers do occur in nature.</note>
+						<note>Birth of High-Mass Stars</note>
+
+						<note>Related Term: star cluster</note>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="es">
+
+					<note>origination</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>Un tipo de cúmulo estelar que consiste en una agrupación de miles de
+						estrellas viejas, gravitacionalmente ligadas, con distribución
+						aproximadamente esférica, y que orbita en torno a una galaxia de manera
+						similar a un satélite.</note>
+					<note>http://es.wikipedia.org/wiki/C%C3%BAmulo_globular</note>
+
+					<termSec>
+						<term>cúmulo globular</term>
+
+
+						<note>noun</note>
+
+						<note> De los 200 cúmulos globulares que sobreviven hoy, M3 es uno de los
+							más grande y luminoso, fácilmente observable con binoculares en el
+							hemisferio Norte del cielo.</note>
+						<note>http://www.tayabeixo.org/portadas/m3.htm</note>
+
+						<note>Related Term: cúmulo estelar</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+
+
+			<conceptEntry id="c6">
+
+				<note>origination</note>
+				<note>2010-04-17</note>
+				<note>Tommy</note>
+
+
+				<note>modification</note>
+				<note>2010-05-01</note>
+				<note>Tommy</note>
+
+				<note>General</note>
+				<langSec xml:lang="en">
+
+					<note>origination</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+					<note>Main_Sequence.jpg</note>
+					<note>G-Source: http://www.skyofplenty.com/?page_id=374</note>
+
+					<note>Of or dealing with a major group of stars forming a band stretching from
+						upper left to lower right on a Hertzsprung-Russell diagram when being
+						plotted by luminosity and surface temperature.</note>
+					<note>http://en.wiktionary.org/wiki/main-sequence</note>
+
+					<termSec>
+						<term>main-sequence</term>
+
+
+						<note>adjective</note>
+
+						<note>However, immediately after its formation, the merger product is likely
+							to have a photospheric radius considerably larger than that of a
+							main-sequence star with the same mass.</note>
+						<note>Bally2005</note>
+
+					</termSec>
+				</langSec>
+				<langSec xml:lang="es">
+
+					<note>origination</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+					<note>Secuencia_Principal.jpg</note>
+					<note>G-Source:
+						http://www.astronomos.cl/conocimientos/general/2/evol/index.htm</note>
+
+					<note>Pertenece a las estrellas en la región del diagrama de Hertzsprung-Russell
+						en la que se encuentran la mayor parte de las estrellas que transforman
+						hidrógeno en helio.</note>
+					<note>http://es.wikipedia.org/wiki/Secuencia_principal</note>
+
+					<termSec>
+						<term>de secuencia principal</term>
+
+
+						<note>adjective</note>
+
+						<note>Por ejemplo, nuestro sol es una estrella de secuencia principal
+							regular de tamaño pequeño. </note>
+						<note>http://celestia.albacete.org/celestia/celestia/stars/secu5.htm</note>
+
+					</termSec>
+				</langSec>
+			</conceptEntry>
+
+
+			<conceptEntry id="c7">
+
+				<note>origination</note>
+				<note>2010-04-17</note>
+				<note>Tommy</note>
+
+
+				<note>modification</note>
+				<note>2010-04-24</note>
+				<note>Tommy</note>
+
+				<note>Stellar Birth</note>
+				<langSec xml:lang="en">
+
+					<note>origination</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+					<note>Protostar.jpg</note>
+					<note>G-Source: http://www.konkoly.hu/KISAG/Science/star/star_intro.html</note>
+
+					<note>A star in the earliest observable stage of formation.</note>
+					<note>Cambridge2007</note>
+
+					<termSec>
+						<term>protostar</term>
+
+
+						<note>noun</note>
+
+						<note>Alternatively, it has been suggested that massive stars form from the
+							merging of lower mass protostars in high-density protostar clusters
+							(Bonnell et al.1998; Stahler et al. 2000; Bonnell 2002; Zinnecker &amp;
+							Bate 2002).</note>
+						<note>Bally2005</note>
+
+					</termSec>
+				</langSec>
+				<langSec xml:lang="es">
+
+					<note>origination</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+					<note>Protoestrella.jpg</note>
+					<note>G-Source:
+						http://geocities.ws/acarvajaltt/temas/estrellas_nacimiento_estelar.html</note>
+
+					<note>Una región muy densa o descorazonada de nubes moleculares donde existen
+						estrellas en proceso de formación.</note>
+					<note>www.astrocosmo.cl/glosario/glosar-p.htm</note>
+
+					<termSec>
+						<term>protoestrella</term>
+
+
+						<note>noun</note>
+
+						<note>En estos primeros estadios, la protoestrella es un objeto muy activo,
+							y produce un viento bipolar formado por dos chorros opuestos de material
+							de alta velocidad. </note>
+						<note>http://www.fomento.es/MFOM/LANG_CASTELLANO/DIRECCIONES_GENERALES/INSTITUTO_GEOGRAFICO/Astronomia/InvestermSecacion/astronomia/protoestrellas.htm</note>
+
+					</termSec>
+				</langSec>
+			</conceptEntry>
+
+
+			<conceptEntry id="c8">
+
+				<note>origination</note>
+				<note>2010-04-17</note>
+				<note>Tommy</note>
+
+
+				<note>modification</note>
+				<note>2010-05-01</note>
+				<note>Tommy</note>
+
+				<note>General</note>
+				<note>Star_Cluster.jpg</note>
+				<note>G-Source: http://apod.nasa.gov/apod/ap060109.html</note>
+				<langSec xml:lang="en">
+
+					<note>origination</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>A collection of stars formed together from the same gas cloud and bound
+						together by mutual gravitational attraction.</note>
+					<note>Oxford2007</note>
+
+					<termSec>
+						<term>star cluster</term>
+
+
+						<note>noun</note>
+
+						<note>Most star clusters are too far away and the white dwarfs are too faint
+							to be seen by ground-based telescopes, but Hubble's powerful vision sees
+							many of them.</note>
+						<note>http://hubblesite.org/newscenter/archive/releases/star%20cluster/2008/25/full/</note>
+
+						<note>Related Term: globular cluster</note>
+						<note>Related Term: open cluster</note>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="es">
+
+					<note>origination</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>origination</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>Un grupo de estrellas atraídas entre sí por su gravedad mutua.</note>
+					<note>http://iopscience.iop.org/1538-3881/129/5/2281/pdf/1538-3881_129_5_2281.pdf</note>
+
+					<termSec>
+						<term>cúmulo estelar</term>
+
+
+						<note>noun</note>
+						<note>preferredTerm-admn-sts</note>
+
+						<note>“Es como encontrar un pez fuera del agua”, dice Ed Churchwell,
+							profesor de astronomía de la Universidad de Wisconsin-Madison, quien con
+							un equipo de científicos de UW-Madison, de la Universidad de Wyoming, de
+							la Universidad de Boston, del Instituto de Ciencia Espacial de Boulder,
+							Colorado, y del Centro de Ciencia Spitzer descubrieron este inusual
+							cúmulo estelar con la ayuda del Telescopio Espacial Spitzer de la NASA. </note>
+						<note>http://www.astroseti.org/vernew.php?codigo=1117</note>
+
+					</termSec>
+					<termSec>
+						<term>cúmulo de estrellas</term>
+
+
+						<note>noun</note>
+						<note>admittedTerm-admn-sts</note>
+
+						<note>Los cúmulos de estrellas se clasifican en dos grupos: cúmulos
+							abiertos, que no poseen forma definida, y cúmulos globulares, que son
+							esféricos o casi esféricos.</note>
+						<note>http://www.astromia.com/universo/cumulos.htm</note>
+
+						<note>Related Term: cúmulo globular</note>
+						<note>Related Term: cúmulo abierto</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+
+
+			<conceptEntry id="c9">
+
+				<note>origination</note>
+				<note>2010-04-17</note>
+				<note>Tommy</note>
+
+
+				<note>modification</note>
+				<note>2010-05-01</note>
+				<note>Tommy</note>
+
+				<note>General</note>
+				<langSec xml:lang="en">
+
+					<note>origination</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>origination</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>origination</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+					<note>Milky_Way.jpg</note>
+					<note>G-Source: http://www.cfa.harvard.edu/~afrebel/milky-way-2.jpg</note>
+
+					<note>A band of faint light across the sky, visible to the naked eye on a
+						moonless night, consisting of stars and glowing gas in the disk of our own
+						Galaxy.</note>
+					<note>Oxford2007</note>
+
+					<termSec>
+						<term>Galaxy</term>
+
+
+						<note>noun</note>
+						<note>shortForm</note>
+
+						<note>If merging is an important pathway to the formation of massive stars,
+							then it is expected that some highluminosity IRAS sources in our Galaxy
+							have brightened or faded since the IRAS observations were made.</note>
+						<note>Bally2005</note>
+
+					</termSec>
+					<termSec>
+						<term>Milky Way Galaxy</term>
+
+
+						<note>noun</note>
+						<note>fullForm</note>
+					</termSec>
+					<termSec>
+						<term>Milky Way</term>
+
+
+						<note>noun</note>
+						<note>shortForm</note>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="es">
+
+					<note>origination</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>origination</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>origination</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+					<note>Via_Lactea.jpg</note>
+					<note>G-Source: http://oacs-unah.edu.hn/an111/vrt/img/via_lactea.jpg</note>
+
+					<note>Una galaxia espiral en la que se encuentra el Sistema Solar y, por ende,
+						la Tierra.</note>
+					<note>http://es.wikipedia.org/wiki/Vía_Láctea</note>
+
+					<termSec>
+						<term>Galaxia</term>
+
+
+						<note>noun</note>
+						<note>shortForm</note>
+
+						<note>La Vía Láctea, también llamada la Galaxia, es un agrupamiento de
+							estrellas con forma de disco, que incluye al Sol y a su sistema
+							solar.</note>
+						<note>www.todoelsistemasolar.com.ar/vlactea.htm</note>
+
+					</termSec>
+					<termSec>
+						<term>Vía Láctea</term>
+
+
+						<note>noun</note>
+						<note>shortForm</note>
+
+						<note>La Via Láctea és una galaxia grande, espiral y puede tener unos
+							100.000 millones de estrellas, entre ellas, el Sol. </note>
+						<note>http://www.astromia.com/universo/vialactea.htm</note>
+
+					</termSec>
+					<termSec>
+						<term>galaxia Vía Láctea</term>
+
+
+						<note>noun</note>
+						<note>fullForm</note>
+
+						<note>La galaxia Vía Láctea es una galaxia espiral que es nuestro hogar, al
+							igual que el de otras 100 mil millones estrellas. </note>
+						<note>http://www.windows.ucar.edu/tour/link=/the_universe/Milkyway.sp.html</note>
+
+					</termSec>
+				</langSec>
+			</conceptEntry>
+
+
+			<conceptEntry id="c10">
+
+				<note>origination</note>
+				<note>2010-04-17</note>
+				<note>Tommy</note>
+
+
+				<note>modification</note>
+				<note>2010-04-24</note>
+				<note>Tommy</note>
+
+				<note>General</note>
+				<note>Star.jpg</note>
+				<note>G-Source:
+					http://lh4.ggpht.com/_EuutPdvjcY0/SQ2jGBKWO7I/AAAAAAAAALM/gjDMVimDQc8/005Est.jpg</note>
+				<langSec xml:lang="en">
+
+					<note>origination</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>A large, luminous ball of gas generating energy internally by nuclear
+						fusion.</note>
+					<note>Cambridge2007</note>
+
+					<termSec>
+						<term>star</term>
+
+
+						<note>noun</note>
+
+						<note>While the behavior of stars forming by accretion is reasonably well
+							understood,the consequences of merging have not been fully
+							investermSecated.</note>
+						<note>Bally2005</note>
+
+					</termSec>
+				</langSec>
+				<langSec xml:lang="es">
+
+					<note>origination</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>Una enorme y densa bola de gas que genera fusión nuclear, liberando así
+						una gran cantidad de energía</note>
+					<note>spaceplace.nasa.gov/sp/kids/spitzer/signs/sign_glossary.shtml</note>
+
+					<termSec>
+						<term>estrella</term>
+
+
+						<note>noun</note>
+
+						<note>Las estrellas son enormes aglomeraciones de gas, principalmente
+							Hidrogeno, cuya temperatura es tan alta debido a la fusión de este
+							elemento, que irradian luz a lo largo de todo el espectro
+							electromagnético. Poseen diferentes temperaturas que varían desde los
+							2000 grados Celsius hasta los 50000.</note>
+						<note>http://www.astrosurf.com/astronosur/estrellas.htm</note>
+
+					</termSec>
+				</langSec>
+			</conceptEntry>
+
+
+			<conceptEntry id="c11">
+
+				<note>origination</note>
+				<note>2010-04-17</note>
+				<note>Tommy</note>
+
+
+				<note>modification</note>
+				<note>2010-05-01</note>
+				<note>Tommy</note>
+
+				<note>General</note>
+				<note>UV_Radiation.jpg</note>
+				<note>G-Source: http://drdima.files.wordpress.com/2009/05/sun-rays.jpg</note>
+				<langSec xml:lang="en">
+
+					<note>origination</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>origination</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>The region of the electromagnetic spectrum spanning the wavelength range
+						from the Lymann limit at 91.2 nm to 350 nm.</note>
+					<note>Oxford2007</note>
+
+					<termSec>
+						<term>UV radiation</term>
+
+
+						<note>noun</note>
+						<note>shortForm</note>
+
+						<note>UV radiation from stars and shocks likely provide the minimum level of
+							ionization required to couple these fields strongly to the entangled
+							medium.</note>
+						<note>Bally2005</note>
+
+					</termSec>
+					<termSec>
+						<term>ultraviolet radiation</term>
+
+
+						<note>noun</note>
+						<note>fullForm</note>
+
+						<note>Ultraviolet (UV) radiation is part of the electromagnetic spectrum
+							emitted by the sun. </note>
+						<note>http://www.who.int/uv/en/</note>
+
+					</termSec>
+				</langSec>
+				<langSec xml:lang="es">
+
+					<note>origination</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>origination</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>La radiación electromagnética cuya longitud de onda está comprendida
+						aproximadamente entre los 400 nm y los 15 nm.</note>
+					<note>http://es.wikipedia.org/wiki/Radiaci%C3%B3n_UV</note>
+
+					<termSec>
+						<term>radiación UV</term>
+
+
+						<note>noun</note>
+						<note>shortForm</note>
+
+						<note>Los usuarios de camas solares se someten a dosis considerables de
+							radiaciones UV artificiales para conseguir un bronceado complementario
+							al obtenido al tomar el sol.</note>
+						<note>http://copublications.greenfacts.org/es/camas-solares/</note>
+
+					</termSec>
+					<termSec>
+						<term>radiación ultravioleta</term>
+
+
+						<note>noun</note>
+						<note>fullForm</note>
+
+						<note>La radiación ultravioleta se encuentra entre la luz visible y los
+							rayos X del espectro electromagnético.</note>
+						<note>http://www.windows.ucar.edu/tour/link=/physical_science/magnetism/em_ultraviolet.sp.html</note>
+
+					</termSec>
+				</langSec>
+			</conceptEntry>
+
+
+			<conceptEntry id="c12">
+
+				<note>origination</note>
+				<note>2010-04-17</note>
+				<note>Tommy</note>
+
+
+				<note>modification</note>
+				<note>2010-05-01</note>
+				<note>Tommy</note>
+
+				<note>General</note>
+				<note>Magnetic_Field.jpg</note>
+				<note>G-Source: http://www.greatdreams.com/magnet1.jpg</note>
+				<langSec xml:lang="en">
+
+					<note>origination</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>A region subject to the influence of magnetism that is manifested by the
+						mechanical forces that it exerts upon electricity moving across it and upon
+						the poles of magnets placed in it.</note>
+					<note>Merriam-Webster2002</note>
+
+					<termSec>
+						<term>magnetic field</term>
+
+
+						<note>noun</note>
+
+						<note>Detailed consideration of the merger process will require numerical
+							modeling in which the hydrodynamics, effects of gravity,magnetic fields,
+							and radiation are considered carefully.</note>
+						<note>Bally2005</note>
+
+					</termSec>
+				</langSec>
+				<langSec xml:lang="es">
+
+					<note>origination</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>Un campo de fuerza creado como consecuencia del movimiento de cargas
+						eléctricas, del flujo de la electricidad.</note>
+					<note>http://www.greenfacts.org/es/glosario/abc/campo-magnetico.htm</note>
+
+					<termSec>
+						<term>campo magnético</term>
+
+
+						<note>noun</note>
+
+						<note>El campo magnético es producido por la corriente eléctrica que circula
+							por un conductor.</note>
+						<note>http://teleformacion.edu.aytolacoruna.es/FISICA/document/teoria/A_Franco/elecmagnet/magnetico/cMagnetico.html</note>
+
+					</termSec>
+				</langSec>
+			</conceptEntry>
+
+
+			<conceptEntry id="c13">
+
+				<note>origination</note>
+				<note>2010-04-17</note>
+				<note>Tommy</note>
+
+
+				<note>modification</note>
+				<note>2010-05-01</note>
+				<note>Tommy</note>
+
+				<note>General</note>
+				<note>Blue_Straggler.jpg</note>
+				<note>G-Source: http://images.spaceref.com/news/2009/ooBlue_Straggler09.jpg</note>
+				<langSec xml:lang="en">
+
+					<note>origination</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>A blue main-sequence star, usually found in a globular or open cluster
+						that appears to be slower in its evolution than other stars of similar mass
+						and luminosity in the same cluster.</note>
+					<note>Oxford2007</note>
+
+					<termSec>
+						<term>blue straggler</term>
+
+
+						<note>noun</note>
+
+						<note>Numerical models of stellar collisions leading to the formation of
+							blue stragglers in globular clusters (Lombardi et al. 2002, 2003;
+							Fregeau et al. 2004) indicate that merger products have radii up to 30
+							times larger than that of an equivalent main-sequence star.</note>
+						<note>Bally2005</note>
+
+					</termSec>
+				</langSec>
+				<langSec xml:lang="es">
+
+					<note>origination</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>Estrellas que aparentan una edad menor que la del sistema estelar al que
+						pertenecen, si se supone que se formaron junto con él.</note>
+					<note>http://es.wikipedia.org/wiki/Estrella_rezagada_azul</note>
+
+					<termSec>
+						<term>estrella rezagada azul</term>
+
+
+						<note>noun</note>
+						<note>preferredTerm-admn-sts</note>
+
+						<note>Las últimas observaciones de las “rezagadas azules”, estrellas
+							atípicas que aparentan ser más jóvenes que el sistema estelar al que
+							pertenecen, han proporcionado dos modelos diferentes sobre su
+							origen.</note>
+						<note>http://mundoastronomia.portalmundos.com/nuevas-pistas-sobre-el-origen-de-las-estrellas-rezagadas-azules/</note>
+
+					</termSec>
+				</langSec>
+			</conceptEntry>
+
+
+			<conceptEntry id="c14">
+
+				<note>origination</note>
+				<note>2010-04-17</note>
+				<note>Tommy</note>
+
+
+				<note>modification</note>
+				<note>2010-05-01</note>
+				<note>Tommy</note>
+
+				<note>General</note>
+				<langSec xml:lang="en">
+
+					<note>origination</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>The sudden collapse of a massive star when the internal pressure pushing
+						outwards falls so that it cannot balance the weight of material pressing
+						inward.</note>
+					<note>Cambridge2007</note>
+
+					<termSec>
+						<term>gravitational collapse</term>
+
+
+						<note>noun</note>
+
+						<note>Stars form from the gravitational collapse of turbulent molecular
+							cloud cores (Elmegreen &amp; Scalo 2004; Mac Low &amp; Klessen
+							2004).</note>
+						<note>Bally2005</note>
+
+					</termSec>
+				</langSec>
+				<langSec xml:lang="es">
+
+					<note>origination</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>El estado final de la evolución de una estrella de gran masa en el que la
+						materia se comprime bajo la acción de su propia atracción gravitatoria, con
+						desprendimiento de grandes cantidades de energía.</note>
+					<note>http://www.conocimientosweb.net/portal/term6172.html</note>
+
+					<termSec>
+						<term>colapso gravitacional</term>
+
+
+						<note>noun</note>
+
+						<note>Esto sucede si la masa de un pedazo de la nube excede cierto valor
+							crítico, de modo tal que la fuerza de gravedad vence definitivamente y
+							el pedazo empieza a contraerse, aumentando su densidad. Este proceso se
+							llama colapso gravitacional. </note>
+						<note>http://bibliotecadigital.ilce.edu.mx/sites/ciencia/volumen1/ciencia2/06/html/sec_15.html</note>
+
+					</termSec>
+				</langSec>
+			</conceptEntry>
+
+
+			<conceptEntry id="c15">
+
+				<note>origination</note>
+				<note>2010-04-17</note>
+				<note>Tommy</note>
+
+
+				<note>modification</note>
+				<note>2010-05-01</note>
+				<note>Tommy</note>
+
+				<note>General</note>
+				<note>Binary_Star.jpg</note>
+				<note>G-Source:
+					http://lh6.ggpht.com/_6hgSmco4R9M/SaqplXGqJfI/AAAAAAAAA1k/B3a43_O9VI8/56_Binary_Stars_thumb3.jpg</note>
+				<langSec xml:lang="en">
+
+					<note>origination</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>A pair of stars in orbit around each other, held together by the
+						graviational attraction between them.</note>
+					<note>Cambridge2007</note>
+
+					<termSec>
+						<term>binary star</term>
+
+
+						<note>noun</note>
+
+						<note>These authors considered collision partners having similar masses and
+							concluded that such interactions can at most account for a small
+							fraction of the observed binary star population in young
+							clusters.</note>
+						<note>Bally2005</note>
+
+					</termSec>
+				</langSec>
+				<langSec xml:lang="es">
+
+					<note>origination</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>origination</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>Un sistema estelar compuesto de dos estrellas que orbitan mutuamente
+						alrededor de un centro de masas común.</note>
+					<note>http://es.wikipedia.org/wiki/Estrella_binaria</note>
+
+					<termSec>
+						<term>estrella binaria</term>
+
+
+						<note>noun</note>
+						<note>admittedTerm-admn-sts</note>
+
+						<note>La explosión de una estrella binaria dentro de una nebulosa planetaria
+							ha sido capturado por un equipo dirigido por investermSecadores del
+							University College of London UCL - es un acontecimiento que no ha sido
+							presenciado hace más de 100 años.</note>
+						<note>http://www.astroelche.es/blog/index.php?blog=2&amp;title=astronomos-capturam-la-explosion-de-una-&amp;more=1&amp;c=1&amp;tb=1&amp;pb=1</note>
+
+					</termSec>
+					<termSec>
+						<term>estrella doble</term>
+
+
+						<note>noun</note>
+						<note>preferredTerm-admn-sts</note>
+
+						<note>Una estrella doble es una pareja de estrellas que se mantienen unidas
+							por la fuerza de la gravitación y giran en torno a su centro
+							común.</note>
+						<note>http://www.astromia.com/universo/dobles.htm</note>
+
+					</termSec>
+				</langSec>
+			</conceptEntry>
+
+
+			<conceptEntry id="c16">
+
+				<note>origination</note>
+				<note>2010-04-17</note>
+				<note>Tommy</note>
+
+
+				<note>modification</note>
+				<note>2010-05-01</note>
+				<note>Tommy</note>
+
+				<note>Stellar Birth</note>
+				<note>Initial_Mass_Function.jpg</note>
+				<note>G-Source:
+					http://www.astro.ljmu.ac.uk/~ikb/research/imf-use-in-cosmology.html</note>
+				<note>This figure compares the IMFs by ploting mass fraction per dex versus mass,
+					i.e., normalized so that the integral under each curve is unity. They are
+					assumed to be valid from 0.1 to 120 solar masses.</note>
+				<note>N-Source:
+					http://www.astro.ljmu.ac.uk/~ikb/research/imf-use-in-cosmology.html</note>
+				<langSec xml:lang="en">
+
+					<note>origination</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>A mathematical description of the relative frequncy with which stars of
+						various masses are formed.</note>
+					<note>Oxford2007</note>
+
+					<termSec>
+						<term>initial mass function</term>
+
+
+						<note>noun</note>
+
+						<note>The extremely rare merger of two stars close to the upper-mass end of
+							the initial mass function may be a possible pathway to
+							hypernova-generated gamma-ray bursts.</note>
+						<note>Bally2005</note>
+
+					</termSec>
+				</langSec>
+				<langSec xml:lang="es">
+
+					<note>origination</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-17</note>
+					<note>Tommy</note>
+
+
+					<note>La expresión numérica que determina el número de estrellas con masa en un
+						rango determinado.</note>
+					<note>Basado en
+						http://laeff.cab.inta-csic.es/modules.php?op=modload&amp;name=phpWiki&amp;file=index&amp;pagename=Research-Estrellas-IMF</note>
+
+					<termSec>
+						<term>función inicial de masa</term>
+
+
+						<note>noun</note>
+
+						<note>Estado evolutivo y función inicial de masa de cúmulos jóvenes en la
+							gran nube de Magallanes (estudio en el ultravioleta).</note>
+						<note>http://dialnet.unirioja.es/servlet/tesis?codigo=11651</note>
+
+					</termSec>
+				</langSec>
+			</conceptEntry>
+
+
+			<conceptEntry id="c17">
+
+				<note>origination</note>
+				<note>2010-04-20</note>
+				<note>Student</note>
+
+
+				<note>modification</note>
+				<note>2010-04-20</note>
+				<note>Student</note>
+
+				<langSec xml:lang="zu">
+
+					<note>origination</note>
+					<note>2010-04-20</note>
+					<note>Student</note>
+
+
+					<note>modification</note>
+					<note>2010-04-20</note>
+					<note>Student</note>
+
+					<termSec>
+						<term>Bally2005</term>
+
+
+						<note>Author[s]: Bally, John and Hans Zinnecker</note>
+						<note>Journal Title: The Astronomical Journal</note>
+						<note>Article Title: The Birth of High-Mass Stars: Accertion and/or
+							Mergers?</note>
+						<note>Volume: 129</note>
+						<note>Publication Place: U.S.A.</note>
+						<note>Publisher: The American Astronomical Society</note>
+						<note>Publication Year: May 2005</note>
+						<note>Page(s): 2281-2293</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+
+
+			<conceptEntry id="c18">
+
+				<note>origination</note>
+				<note>2010-04-20</note>
+				<note>Student</note>
+
+
+				<note>modification</note>
+				<note>2010-04-20</note>
+				<note>Student</note>
+
+				<langSec xml:lang="zu">
+
+					<note>origination</note>
+					<note>2010-04-20</note>
+					<note>Student</note>
+
+
+					<note>modification</note>
+					<note>2010-04-20</note>
+					<note>Student</note>
+
+					<termSec>
+						<term>Cambridge2007</term>
+
+
+						<note>Author[s]: Mitton, Jaqueline</note>
+						<note>Book Title: Cambridge Illustrated Dictionary of Astronomy</note>
+						<note>Publication Place: New York</note>
+						<note>Publisher: Cambridge University Press</note>
+						<note>Publication Year: 2007</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+
+
+			<conceptEntry id="c19">
+
+				<note>origination</note>
+				<note>2010-04-20</note>
+				<note>Student</note>
+
+
+				<note>modification</note>
+				<note>2010-04-20</note>
+				<note>Student</note>
+
+				<langSec xml:lang="zu">
+
+					<note>origination</note>
+					<note>2010-04-20</note>
+					<note>Student</note>
+
+
+					<note>modification</note>
+					<note>2010-04-20</note>
+					<note>Student</note>
+
+					<termSec>
+						<term>Merriam-Webster2002</term>
+
+
+						<note>Book Title: Webster's Third New International Dictionary</note>
+						<note>Editor[s]: Gove, Philip Babcock</note>
+						<note>Volume: Third Edition</note>
+						<note>Publication Place: Springfield, Massachusetts</note>
+						<note>Publisher: Merriam-Webster INC.</note>
+						<note>Publication Year: 2002</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+
+
+			<conceptEntry id="c20">
+
+				<note>origination</note>
+				<note>2010-04-20</note>
+				<note>Student</note>
+
+
+				<note>modification</note>
+				<note>2010-04-20</note>
+				<note>Student</note>
+
+				<langSec xml:lang="zu">
+
+					<note>origination</note>
+					<note>2010-04-20</note>
+					<note>Student</note>
+
+
+					<note>modification</note>
+					<note>2010-04-20</note>
+					<note>Student</note>
+
+					<termSec>
+						<term>Oxford2007</term>
+
+
+						<note>Book Title: Oxford Dictionary of Astronomy</note>
+						<note>Editor[s]: Ridpath, Ian</note>
+						<note>Volume: Second Edition</note>
+						<note>Publication Place: New York</note>
+						<note>Publisher: Oxford University Press</note>
+						<note>Publication Year: 2007</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+
+
+			<conceptEntry id="c21">
+
+				<note>origination</note>
+				<note>2010-04-20</note>
+				<note>Student</note>
+
+
+				<note>modification</note>
+				<note>2010-04-24</note>
+				<note>Tommy</note>
+
+				<note>Stellar Death</note>
+				<note>Supernova.jpg</note>
+				<note>G-Source:
+					http://jcconwell.wordpress.com/2009/07/24/top-10-ways-the-universe-could-kill-us/supernova/</note>
+				<langSec xml:lang="en">
+
+					<note>origination</note>
+					<note>2010-04-20</note>
+					<note>Student</note>
+
+
+					<note>modification</note>
+					<note>2010-04-20</note>
+					<note>Student</note>
+
+
+					<note>A catastrophic stellar explosion in which so much energy is released that
+						the supernova alone can outshine an entire galaxy of billions of
+						stars.</note>
+					<note>Cambridge2007</note>
+
+					<termSec>
+						<term>supernova</term>
+
+
+						<note>noun</note>
+
+						<note>The supermassive object may be eventually disrupted by an unusually
+							violent supernova explosion (a hypernova) soon after formation.</note>
+						<note>Bally2005</note>
+
+					</termSec>
+				</langSec>
+				<langSec xml:lang="es">
+
+					<note>origination</note>
+					<note>2010-04-20</note>
+					<note>Student</note>
+
+
+					<note>modification</note>
+					<note>2010-04-20</note>
+					<note>Student</note>
+
+
+					<note>Una estrella que estalla y lanza a todo su alrededor la mayor parte de su
+						masa a altísimas velocidades.</note>
+					<note>http://www.astromia.com/glosario/supernova.htm</note>
+
+					<termSec>
+						<term>supernova</term>
+
+
+						<note>noun</note>
+
+						<note>Un equipo de científicos británicos propone esta semana en la revista
+							Nature que la tenue supernova SN2008ha, descubierta por una adolescente
+							estadounidense en noviembre de 2008, podría ser la explosión de una
+							estrella masiva, en lugar de proceder de una enana blanca como se
+							planteaba hasta ahora.</note>
+						<note>http://www.plataformasinc.es/index.php/esl/Noticias/Una-supernova-observada-por-astronomos-aficionados-abre-el-debate-entre-los-profesionales</note>
+
+					</termSec>
+				</langSec>
+			</conceptEntry>
+
+
+			<conceptEntry id="c22">
+
+				<note>origination</note>
+				<note>2010-04-24</note>
+				<note>Tommy</note>
+
+
+				<note>modification</note>
+				<note>2010-04-24</note>
+				<note>Tommy</note>
+
+				<langSec xml:lang="zu">
+
+					<note>origination</note>
+					<note>2010-04-24</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-24</note>
+					<note>Tommy</note>
+
+					<termSec>
+						<term>Moore2003</term>
+
+
+						<note>Author[s]: Moore, Patrick</note>
+						<note>Book Title: Philip's Atlas of the Universe</note>
+						<note>Publication Place: Heron Quays, London</note>
+						<note>Publisher: Philip's</note>
+						<note>Publication Year: 2003</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+
+
+			<conceptEntry id="c23">
+
+				<note>origination</note>
+				<note>2010-04-24</note>
+				<note>Tommy</note>
+
+
+				<note>modification</note>
+				<note>2010-05-01</note>
+				<note>Tommy</note>
+
+				<note>General</note>
+				<note>Red_Giant.jpg</note>
+				<note>G-Source:
+					http://www.lcsd.gov.hk/CE/Museum/Space/EducationResource/Universe/framed_e/lecture/ch15/imgs/red_size.jpg</note>
+				<langSec xml:lang="en">
+
+					<note>origination</note>
+					<note>2010-04-24</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-24</note>
+					<note>Tommy</note>
+
+
+					<note>A cool, large and highly luminous star that has left the main sequence and
+						is powered by heavier elements than hydrogen.</note>
+					<note>Oxford2007</note>
+
+					<termSec>
+						<term>red giant</term>
+
+
+						<note>noun</note>
+
+						<note>The core temperature becomes so high that helium start to 'burn',
+							producing carbon; around this active core there is a shell where
+							hydrogen is still producing energy. The star becomes unstable, and the
+							outer layers swell out, cooling as they do so. The star becomes a red
+							giant.</note>
+						<note>Moore2003</note>
+
+					</termSec>
+				</langSec>
+				<langSec xml:lang="es">
+
+					<note>origination</note>
+					<note>2010-04-24</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-24</note>
+					<note>Tommy</note>
+
+
+					<note>Una estrella de masa baja o intermedia (menos de 8-9 masas solares) que,
+						tras haber consumido el hidrógeno en su núcleo durante la etapa de secuencia
+						principal, convirtiéndolo en helio por fusión nuclear, comienza a quemar
+						hidrógeno en una cáscara alrededor del núcleo de helio inerte.</note>
+					<note>http://es.wikipedia.org/wiki/Gigante_roja</note>
+
+					<termSec>
+						<term>gigante roja</term>
+
+
+						<note>noun</note>
+
+						<note>La gigante roja S Orionis (S Ori) es una estrella variable del tipo
+							Mira. Su masa es similar a la del Sol, con la diferencia de que está
+							mucho más cerca de convertirse en una enana blanca, el mismo final que
+							le espera a nuestro Sol dentro de 5 mil millones de años.</note>
+						<note>http://www.solociencia.com/astronomia/07071709.htm</note>
+
+					</termSec>
+				</langSec>
+			</conceptEntry>
+
+
+			<conceptEntry id="c24">
+
+				<note>origination</note>
+				<note>2010-04-24</note>
+				<note>Tommy</note>
+
+
+				<note>modification</note>
+				<note>2010-05-01</note>
+				<note>Tommy</note>
+
+				<note>General</note>
+				<note>Red_Dwarf.jpg</note>
+				<note>G-Source: http://www.wolflodge.org/bluestar/h_red_dwarf_02.jpg</note>
+				<langSec xml:lang="en">
+
+					<note>origination</note>
+					<note>2010-04-24</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-24</note>
+					<note>Tommy</note>
+
+
+					<note>A cool, faint, low-mass star lying at the lower end of the main sequence
+						of spectral type K or M.</note>
+					<note>Oxford2007</note>
+
+					<termSec>
+						<term>red dwarf</term>
+
+
+						<note>noun</note>
+
+						<note>The dim red dward Proxima, more than a degree away from Alpha, is
+							slightly closer to us.</note>
+						<note>Moore2003</note>
+
+					</termSec>
+				</langSec>
+				<langSec xml:lang="es">
+
+					<note>origination</note>
+					<note>2010-04-24</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-24</note>
+					<note>Tommy</note>
+
+
+					<note>Una estrella pequeña y relativamente fría de la secuencia principal, ya
+						sea de tipo espectral K tardío o M.</note>
+					<note>http://es.wikipedia.org/wiki/Enana_roja</note>
+
+					<termSec>
+						<term>enana roja</term>
+
+
+						<note>noun</note>
+
+						<note>El planeta que se ha descubierto girando alrededor de esta enana roja
+							tiene una masa equivalente a la de Neptuno, es decir, es sólo 17 veces
+							mayor que la Tierra y mucho menor que Saturno.</note>
+						<note>http://axxon.com.ar/not/157/c-1570034.htm</note>
+
+					</termSec>
+				</langSec>
+			</conceptEntry>
+
+
+			<conceptEntry id="c25">
+
+				<note>origination</note>
+				<note>2010-04-24</note>
+				<note>Tommy</note>
+
+
+				<note>modification</note>
+				<note>2010-04-24</note>
+				<note>Tommy</note>
+
+				<note>General</note>
+				<note>Spectral_Type.jpg</note>
+				<note>G-Source:
+					http://www.astro.columbia.edu/~archung/labs/spring2002/images/spectral_type2.jpg</note>
+				<langSec xml:lang="en">
+
+					<note>origination</note>
+					<note>2010-04-24</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-24</note>
+					<note>Tommy</note>
+
+
+					<note>A means of classifying stars according to the details of their spectrum,
+						depending largely on their surface temperature.</note>
+					<note>Oxford2007</note>
+
+					<termSec>
+						<term>spectral type</term>
+
+
+						<note>noun</note>
+
+						<note>In this version of a typical HR diagram, the stars are plotted
+							according to their spectral types and suface temperatures (horzontal
+							axis, x) and their luminositites in therms of the Sun (vertical axis,
+							y).</note>
+						<note>Moore2003, 171</note>
+
+					</termSec>
+				</langSec>
+				<langSec xml:lang="es">
+
+					<note>origination</note>
+					<note>2010-04-24</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-24</note>
+					<note>Tommy</note>
+
+
+					<note>El espectro de una estrella clasificado por una letra (O, B, A, F, G, K,
+						M, R, N, S) seguida de un digito que describe el color de la estrella y su
+						temperatura.</note>
+					<note>Basado en
+						http://www.espacioprofundo.com.ar/diccionario/Glosario_de_Astronomia/vertermino/Tipo_espectral.html</note>
+
+					<termSec>
+						<term>tipo espectral</term>
+
+
+						<note>noun</note>
+
+						<note>En el gráfico superior se muestra la intensidad de las líneas
+							espectrales según la temperatura de la estrella (tipo espectral)</note>
+						<note>http://www.astrosurf.com/astronosur/estrellas.htm</note>
+
+					</termSec>
+				</langSec>
+			</conceptEntry>
+
+
+			<conceptEntry id="c26">
+
+				<note>origination</note>
+				<note>2010-04-24</note>
+				<note>Tommy</note>
+
+
+				<note>modification</note>
+				<note>2010-05-01</note>
+				<note>Tommy</note>
+
+				<note>General</note>
+				<note>White_Dwarf.jpg</note>
+				<note>G-Source: http://www.stsci.edu/~inr/thisweek1/thisweek/WhiteDwarf.gif</note>
+				<langSec xml:lang="en">
+
+					<note>origination</note>
+					<note>2010-04-24</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-24</note>
+					<note>Tommy</note>
+
+
+					<note>A small dense star that is has run out of fuel for nuclear fusion,
+						collapsing under its own gravity and blowing off its outer layers to form a
+						planetary nebula in the process.</note>
+					<note>Based on Oxford2007 and Cambridge2007</note>
+
+					<note>This is the end-result of all but the most massive of stars.</note>
+					<note>N-Source: Oxford2007</note>
+					<termSec>
+						<term>white dwarf</term>
+
+
+						<note>noun</note>
+
+						<note>To the upper right lie giants and supergiants of tremendous
+							luminosity, while to the lower left there are the white dwarfs, which
+							are in a differnt category and were not known when HR Diagrams were
+							introduced.</note>
+						<note>Moore2003, 170</note>
+
+					</termSec>
+				</langSec>
+				<langSec xml:lang="es">
+
+					<note>origination</note>
+					<note>2010-04-24</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-24</note>
+					<note>Tommy</note>
+
+
+					<note>Un remanente estelar que se genera cuando una estrella de masa menor a
+						9-10 masas solares ha agotado su combustible nuclear.</note>
+					<note>http://es.wikipedia.org/wiki/Enana_blanca</note>
+
+					<termSec>
+						<term>enana blanca</term>
+
+
+						<note>noun</note>
+
+						<note>Cuando el material fusionable se agota la estrella pierde la presión
+							interna producida por la fusión nuclear y puede colapsar inmediatamente
+							terminando en una enana blanca.</note>
+						<note>http://astroverada.com/_/Main/T_evolucion.html</note>
+
+					</termSec>
+				</langSec>
+			</conceptEntry>
+
+
+			<conceptEntry id="c27">
+
+				<note>origination</note>
+				<note>2010-04-24</note>
+				<note>Tommy</note>
+
+
+				<note>modification</note>
+				<note>2010-05-01</note>
+				<note>Tommy</note>
+
+				<note>General</note>
+				<note>Planetary_Nebula.jpg</note>
+				<note>G-Source:
+					http://www.phys.ncku.edu.tw/~astrolab/mirrors/apod_e/image/0901/ngc2818_hheritage_800.jpg</note>
+				<langSec xml:lang="en">
+
+					<note>origination</note>
+					<note>2010-04-24</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-24</note>
+					<note>Tommy</note>
+
+
+					<note>A bright cloud of glowing gas and dust surrounding a highly evolved
+						star.</note>
+					<note>Oxford2007</note>
+
+					<note>As mass is gradually lost, the core of the star becomes more exposed,
+						ultimately becoming a white dwarf. Also, planetary nebulae have nothing to
+						do with planets, and are not true nebulae.</note>
+					<note>N-Source: Based on Oxford2007 and Moore2003, 186</note>
+					<termSec>
+						<term>planetary nebula</term>
+
+
+						<note>noun</note>
+
+						<note>The star's outer layers are thrown off, and for a cosmically brief
+							period - no more than about 100,000 years - we have the phenomenon of
+							what is termed a planetary nebula.</note>
+						<note>Moore2003, 173</note>
+
+					</termSec>
+				</langSec>
+				<langSec xml:lang="es">
+
+					<note>origination</note>
+					<note>2010-04-24</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-24</note>
+					<note>Tommy</note>
+
+
+					<note>Una nebulosa de emisión consistente en una envoltura brillante en
+						expansión de plasma y gas ionizado, expulsada durante la fase de rama
+						asintótica gigante que atraviesan las estrellas gigantes rojas en los
+						últimos momentos de sus vidas.</note>
+					<note>http://es.wikipedia.org/wiki/Nebulosa_planetaria</note>
+
+					<termSec>
+						<term>nebulosa planetaria</term>
+
+
+						<note>noun</note>
+
+						<note>Las nebulosas planetarias resultan objetos muy espectaculares si se
+							observan con un telescopio de media o gran potencia.</note>
+						<note>http://www.astromia.com/glosario/nebulosaplanetaria.htm</note>
+
+					</termSec>
+				</langSec>
+			</conceptEntry>
+
+
+			<conceptEntry id="c28">
+
+				<note>origination</note>
+				<note>2010-04-24</note>
+				<note>Tommy</note>
+
+
+				<note>modification</note>
+				<note>2010-04-24</note>
+				<note>Tommy</note>
+
+				<note>Stellar Birth</note>
+				<note>Emission_Nebula.jpg</note>
+				<note>G-Source: http://apod.nasa.gov/apod/image/0612/NGC2174_lrg.jpg</note>
+				<langSec xml:lang="en">
+
+					<note>origination</note>
+					<note>2010-04-24</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-24</note>
+					<note>Tommy</note>
+
+
+					<note>A luminous cloud of gas and sust in space which shines with its own light,
+						which can be generated in several ways.</note>
+					<note>Oxford2007</note>
+
+					<note>Ultraviolet radiation, gas cloud collisions, and synchrotron radiation can
+						all cause the emission nebula to shine.</note>
+					<note>N-Source: Oxford2007</note>
+					<termSec>
+						<term>emission nebula</term>
+
+
+						<note>noun</note>
+						<note>preferredTerm-admn-sts</note>
+
+						<note>In this and other similar emission nebulae, energetic ultraviolet
+							light from a hot young star strips electrons from the surrounding
+							hydrogen atoms.</note>
+						<note>http://apod.nasa.gov/apod/emission_nebulae.html</note>
+
+					</termSec>
+				</langSec>
+				<langSec xml:lang="es">
+
+					<note>origination</note>
+					<note>2010-04-24</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-24</note>
+					<note>Tommy</note>
+
+
+					<note>Una nube de gas interestelar que brilla por la excitación del gas, causado
+						por radiación ultravioleta emitida por estrellas inmersas en la nube o por
+						calentamiento debido a otro mecanismos. </note>
+					<note>http://www.diclib.com/Nebulosa%20de%20emisi%C3%B3n/show/en/es_astronomia/726</note>
+
+					<termSec>
+						<term>nebulosa de emisión</term>
+
+
+						<note>noun</note>
+
+						<note>Las nebulosas de emisión estan normalmente en los lugares de formación
+							de estrellas.</note>
+						<note>http://www.astrored.net/nebulosaweb/types.html</note>
+
+					</termSec>
+				</langSec>
+			</conceptEntry>
+
+
+			<conceptEntry id="c29">
+
+				<note>origination</note>
+				<note>2010-04-24</note>
+				<note>Tommy</note>
+
+
+				<note>modification</note>
+				<note>2010-04-24</note>
+				<note>Tommy</note>
+
+				<note>General</note>
+				<note>Nebula.jpg</note>
+				<note>G-Source:
+					http://my-blackberry.net/wallpapers/49/m/NASA_-_The_Horsehead_Nebula%2C_B33%2C_Orion_Nebula.jpg</note>
+				<langSec xml:lang="en">
+
+					<note>origination</note>
+					<note>2010-04-24</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-24</note>
+					<note>Tommy</note>
+
+
+					<note>origination</note>
+					<note>2010-04-24</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-24</note>
+					<note>Tommy</note>
+
+
+					<note>A cloud of interstellar gas and dust.</note>
+					<note>Cambridge2007</note>
+
+					<note>The term was originally applied to any object with a fuzzy telescopic
+						appearance, but with the advent of larger instruments many 'nebulae' were
+						found to consist of faint stars.</note>
+					<note>N-Source: Oxford2007</note>
+					<termSec>
+						<term>nebula</term>
+
+
+						<note>noun</note>
+						<note>Grammatical Number: singular</note>
+
+						<note>According to current theory, a star begins by condensing out of the
+							tenuous material making up a nebula.</note>
+						<note>Moore2003, 172</note>
+
+					</termSec>
+					<termSec>
+						<term>nebulae</term>
+
+
+						<note>noun</note>
+						<note>Grammatical Number: plural</note>
+
+						<note>Other nebulae are within the range of small telescopes.</note>
+						<note>Moore2003, 187</note>
+
+					</termSec>
+				</langSec>
+				<langSec xml:lang="es">
+
+					<note>origination</note>
+					<note>2010-04-24</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-24</note>
+					<note>Tommy</note>
+
+
+					<note>Regiones del medio interestelar constituidas por gases (principalmente
+						hidrógeno y helio) y polvo.</note>
+					<note>http://es.wikipedia.org/wiki/Nebulosa</note>
+
+					<termSec>
+						<term>nebulosa</term>
+
+
+						<note>noun</note>
+
+						<note>A unos 1.500 años-luz de distancia, dentro de nuestro brazo espiral en
+							la Vía Láctea, la Nebulosa de Orión está en el centro de la región de la
+							Espada de la constelación de Orión el Cazador, que domina el cielo
+							nocturno a inicios del invierno, en las latitudes Norte.</note>
+						<note>http://www.oarval.org/OrionNebsp.htm</note>
+
+					</termSec>
+				</langSec>
+			</conceptEntry>
+
+
+			<conceptEntry id="c30">
+
+				<note>origination</note>
+				<note>2010-04-28</note>
+				<note>Tommy</note>
+
+
+				<note>modification</note>
+				<note>2010-04-29</note>
+				<note>Tommy</note>
+
+				<note>Stellar Birth</note>
+				<note>Dark_Nebula.jpg</note>
+				<note>G-Source: http://www.mallorcaweb.net/masm/obstel/caballo.GIF</note>
+				<langSec xml:lang="en">
+
+					<note>origination</note>
+					<note>2010-04-28</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-28</note>
+					<note>Tommy</note>
+
+
+					<note>origination</note>
+					<note>2010-04-28</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-28</note>
+					<note>Tommy</note>
+
+
+					<note>A type of interstellar cloud that is so dense that it obscures the light
+						from the background emission or reflection nebula or that it blocks out
+						background stars.</note>
+					<note>http://en.wikipedia.org/wiki/Dark_nebula</note>
+
+					<termSec>
+						<term>dark nebula</term>
+
+
+						<note>noun</note>
+						<note>preferredTerm-admn-sts</note>
+
+						<note>There is no difference between a dark nebula and a bright one, except
+							for the lack of illumination.</note>
+						<note>Moore2003, 187</note>
+
+					</termSec>
+					<termSec>
+						<term>absorbtion nebula</term>
+
+
+						<note>noun</note>
+						<note>admittedTerm-admn-sts</note>
+
+						<note>An absorption nebula is a dense cloud of dust and gas. From the point
+							of view of an observer on Earth, it absorbs the light from more distant
+							stars, creating a dark, starless region.</note>
+						<note>http://www.glyphweb.com/esky/concepts/absorptionnebula.html</note>
+
+					</termSec>
+				</langSec>
+				<langSec xml:lang="es">
+
+					<note>origination</note>
+					<note>2010-04-28</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-28</note>
+					<note>Tommy</note>
+
+
+					<note>origination</note>
+					<note>2010-04-28</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-28</note>
+					<note>Tommy</note>
+
+
+					<note>Nubes de polvo que simplemente tapan la luz de lo que haya detras.</note>
+					<note>http://www.astrored.net/nebulosaweb/types.html</note>
+
+					<termSec>
+						<term>nebulosa oscura</term>
+
+
+						<note>noun</note>
+						<note>preferredTerm-admn-sts</note>
+
+						<note>Aqui hay un mapa que muestra las regiones de nebulosas oscuras que
+							estan en un radio de 2000 años luz.</note>
+						<note>http://www.atlasoftheuniverse.com/espanol/darknebs.html</note>
+
+					</termSec>
+					<termSec>
+						<term>nebulosa de absorción</term>
+
+
+						<note>noun</note>
+						<note>admittedTerm-admn-sts</note>
+
+						<note>El caso más opuesto a las nebulosas de emisión son las nebulosas de
+							absorción (nebulosas oscuras). Estas ni si quiera están rodeadas de
+							estrellas lo suficientemente potentes ni cercanas para hacer llegar la
+							luminosidad suficiente para que la nebulosa pueda reflejarla.</note>
+						<note>http://www.blogdeastronomia.es/astronomia/formacion-de-estrellas/las-nebulosas</note>
+
+					</termSec>
+				</langSec>
+			</conceptEntry>
+
+
+			<conceptEntry id="c31">
+
+				<note>origination</note>
+				<note>2010-04-28</note>
+				<note>Tommy</note>
+
+
+				<note>modification</note>
+				<note>2010-04-28</note>
+				<note>Tommy</note>
+
+				<note>Stellar Birth</note>
+				<note>Reflection_Nebula.jpeg</note>
+				<note>G-Source:
+					http://mm04.nasaimages.org/MediaManager/srvr?mediafile=/Size3/NVA2-8-NA/14107/full_tif.jpg&amp;userid=1&amp;username=admin&amp;resolution=3&amp;servertype=JVA&amp;cid=8&amp;iid=NVA2&amp;vcid=NA&amp;usergroup=HUBBLE&amp;profileid=39</note>
+				<langSec xml:lang="en">
+
+					<note>origination</note>
+					<note>2010-04-28</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-28</note>
+					<note>Tommy</note>
+
+
+					<note>A cloud of interstellar gas and dust that appears bight because it
+						reflects or scatters starlight.</note>
+					<note>Oxford2007</note>
+
+					<termSec>
+						<term>reflection nebula</term>
+
+
+						<note>noun</note>
+
+						<note>Just weeks after NASA astronauts repaired the Hubble Space Telescope
+							in December 1999, the Hubble Heritage Project snapped this picture of
+							NGC 1999, a reflection nebula in the constellation Orion. </note>
+						<note>http://www.nasa.gov/multimedia/imagegallery/image_feature_701.html</note>
+
+					</termSec>
+				</langSec>
+				<langSec xml:lang="es">
+
+					<note>origination</note>
+					<note>2010-04-28</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-28</note>
+					<note>Tommy</note>
+
+
+					<note>Nubes de polvo que simplemente reflejan la luz de una estrella o estrellas
+						cercanas.</note>
+					<note>http://www.astrored.net/nebulosaweb/types.html</note>
+
+					<termSec>
+						<term>nebulosa de reflexión</term>
+
+
+						<note>noun</note>
+
+						<note>Como el propio nombre implica, esta nebulosa de reflexión asociada con
+							la estrella Rigel, se asemeja a una vieja arpía de un cuento de hadas. </note>
+						<note>http://www.astrofotos.com.es/2008/11/nebulosa-de-la-cabeza-de-bruja.html</note>
+
+					</termSec>
+				</langSec>
+			</conceptEntry>
+
+
+			<conceptEntry id="c32">
+
+				<note>origination</note>
+				<note>2010-04-29</note>
+				<note>Tommy</note>
+
+
+				<note>modification</note>
+				<note>2010-04-29</note>
+				<note>Tommy</note>
+
+				<note>General</note>
+				<langSec xml:lang="en">
+
+					<note>origination</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+					<note>Neutron_Star.jpg</note>
+					<note>G-Source: http://nrumiano.free.fr/Images/Neutron_star_E.gif</note>
+					<termSec>
+						<term>neutron star</term>
+
+
+						<note>noun</note>
+
+						<note>After its Main Sequence period the star becomes a red supergiant and
+							may explode as a supernova. It may end as a neutron star or pulsar,
+							although if its mass is even greater it may poroduce a black
+							hole.</note>
+						<note>Moore2003, 173</note>
+
+					</termSec>
+				</langSec>
+				<langSec xml:lang="es">
+
+					<note>origination</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+					<note>Estrella_de_Neutrones.jpg</note>
+					<note>G-Source:
+						http://es.wikipedia.org/wiki/Archivo:Estrella_de_Neutrones.jpg</note>
+
+					<note>Un cuerpo pequeño muy denso que se forma en el envejecimiento de una
+						estrella pesada y que está formada únicamente por partículas subatómicas
+						denominadas neutrones.</note>
+					<note>http://www.astroasa.com.ar/diccionario_astro.htm</note>
+
+					<termSec>
+						<term>estrella de neutrones</term>
+
+
+						<note>noun</note>
+
+						<note>El Gran Telescopio Canarias (GTC), instalado en el Observatorio del
+							Roque de los Muchachos (La Palma), ha obtenido imágenes de una
+							profundidad "sin precedentes" de una estrella de neutrones del tipo
+							magnetar, de las que se conocen seis, según ha informado el Instituto de
+							Astrofísica de Canarias (IAC).</note>
+						<note>http://www.rtve.es/noticias/20100301/imagen-unica-estrella-neutrones-cazada-canarias/321412.shtml</note>
+
+					</termSec>
+				</langSec>
+			</conceptEntry>
+
+
+			<conceptEntry id="c33">
+
+				<note>origination</note>
+				<note>2010-04-29</note>
+				<note>Tommy</note>
+
+
+				<note>modification</note>
+				<note>2010-05-01</note>
+				<note>Tommy</note>
+
+				<note>Stellar Death</note>
+				<langSec xml:lang="en">
+
+					<note>origination</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>The maximum possible mass of a degenerate star, above which it will be
+						unable to support itself against the inward pull of its own gravity. </note>
+					<note>Oxford2007</note>
+
+					<note>For a star with no hydrogen content the limit is 1.44 solar masses, which
+						is thus the maximum possible for a white dwarf.</note>
+					<note>N-Source: Oxford2007</note>
+					<termSec>
+						<term>Chandrasekhar limit</term>
+
+
+						<note>noun</note>
+
+						<note>However, there is a limit, once the mass of the white dwarf becomes
+							greater than 1.4 time that of the sun )a value known as the
+							Chandrasekhar limit, after the Indian astronomer who first worked it
+							out=, the carbon detonates, and in a matter of a few seconds the white
+							dwarf blows itself to pieces.</note>
+						<note>Moore2003</note>
+
+					</termSec>
+				</langSec>
+				<langSec xml:lang="es">
+
+					<note>origination</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>El límite de masa más allá del cual la degeneración de electrones no es
+						capaz de contrarrestar la fuerza de gravedad en un remanente estelar,
+						produciéndose un colapso que origina una estrella de neutrones o un agujero
+						negro. </note>
+					<note>http://es.wikipedia.org/wiki/L%C3%ADmite_de_Chandrasekhar</note>
+
+					<termSec>
+						<term>límite de Chandrasekhar</term>
+
+
+						<note>noun</note>
+
+						<note>Descubrió una masa (aproximadamente 1.5 veces la masa del Sol) en la
+							que una estrella fría no podría soportar su gravedad. Esto es lo que se
+							conoce como el límite de Chandrasekhar.</note>
+						<note>http://html.rincondelvago.com/agujeros-negros_5.html</note>
+
+					</termSec>
+				</langSec>
+			</conceptEntry>
+
+
+			<conceptEntry id="c34">
+
+				<note>origination</note>
+				<note>2010-04-29</note>
+				<note>Tommy</note>
+
+
+				<note>modification</note>
+				<note>2010-05-01</note>
+				<note>Tommy</note>
+
+				<note>Stellar Death</note>
+				<langSec xml:lang="en">
+
+					<note>origination</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>The state of degeneracy attained when the density of matter is so high
+						that neutrons cannot be packed any more closely together.</note>
+					<note>Oxford2007</note>
+
+					<note>Encountered on in neutron stars.</note>
+					<note>N-Source: Oxford2007</note>
+					<termSec>
+						<term>neutron degeneracy</term>
+
+
+						<note>noun</note>
+
+						<note>When it reaches the threshold of energy necessary to force the
+							combining of electrons and protons to form neutrons, the electron
+							degeneracy limit has been passed and the collapse continues until it is
+							stopped by neutron degeneracy.</note>
+						<note>http://hyperphysics.phy-astr.gsu.edu/HBASE/Astro/pulsar.html</note>
+
+					</termSec>
+				</langSec>
+				<langSec xml:lang="es">
+
+					<note>origination</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>El estado de degeneración alcanzado cuando la densidad de materia es tan
+						alta, que los neutrones no pueden juntarse más.</note>
+					<note>Oxford2003</note>
+
+					<termSec>
+						<term>degeneración de neutrones</term>
+
+
+						<note>noun</note>
+
+						<note>Es la principal responsable de la resistencia al colapso gravitacional
+							de las enanas blancas (degeneración de electrones) y de las estrellas de
+							neutrones (degeneración de neutrones). </note>
+						<note>http://www.emiliosilveravazquez.com/glosario.php?letra=d</note>
+
+					</termSec>
+				</langSec>
+			</conceptEntry>
+
+
+			<conceptEntry id="c35">
+
+				<note>origination</note>
+				<note>2010-04-29</note>
+				<note>Tommy</note>
+
+
+				<note>modification</note>
+				<note>2010-05-01</note>
+				<note>Tommy</note>
+
+				<note>General</note>
+				<note>Event_Horizon.jpg</note>
+				<note>G-Source:
+					http://www.astro.cornell.edu/academics/courses/astro2201/images/bh_structure.gif</note>
+				<langSec xml:lang="en">
+
+					<note>origination</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>The radius of the event horizon of a black hole.</note>
+					<note>Oxford2007</note>
+
+					<termSec>
+						<term>Schwarzschild radius</term>
+
+
+						<note>noun</note>
+
+						<note>The critical radius of a non-rotating black hole is called the
+							Schwarzschild radius, after the German astronomer who investermSecated
+							the problem mathematically as long ago as 1916: the boundary around the
+							collapsed star having this radius is termed the 'event horizon'.</note>
+						<note>Moore2003</note>
+
+						<note>Related Term: event horizon</note>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="es">
+
+					<note>origination</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>El radio del horizonte de sucesos para un agujero negro.</note>
+					<note>http://www.astrocosmo.cl/glosario/glosar-r.htm</note>
+
+					<termSec>
+						<term>radio de Schwarzschild</term>
+
+
+						<note>noun</note>
+
+						<note>Me pareció muy interesante este vídeo del proyecto Sixty Symbols de la
+							Universidad de Nottingham en el que explican de forma divulgativa qué es
+							el radio de Schwarzschild. Básicamente es el radio de un agujero
+							negro.</note>
+						<note>http://www.microsiervos.com/archivo/ciencia/agujeros-negros-y-el-radio-de-schwarzschild.html</note>
+
+						<note>Related Term: horizonte de sucesos, horizonte de eventos</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+
+
+			<conceptEntry id="c36">
+
+				<note>origination</note>
+				<note>2010-04-29</note>
+				<note>Tommy</note>
+
+
+				<note>modification</note>
+				<note>2010-05-01</note>
+				<note>Tommy</note>
+
+				<note>Stellar Death</note>
+				<note>Event_Horizon.jpg</note>
+				<note>G-Source:
+					http://www.astro.cornell.edu/academics/courses/astro2201/images/bh_structure.gif</note>
+				<langSec xml:lang="en">
+
+					<note>origination</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>The surface of a black hole.</note>
+					<note>Oxford2007</note>
+
+					<termSec>
+						<term>event horizon</term>
+
+
+						<note>noun</note>
+
+						<note>Narayan and Heyl have calculated that if very heavy objects do not
+							collapse to a point with an event horizon but instead have a surface,
+							they would eject as many type 1 bursts as neutron stars.</note>
+						<note>http://www.newscientist.com/article/dn2527-astronomers-reach-the-event-horizon.html</note>
+
+					</termSec>
+				</langSec>
+				<langSec xml:lang="es">
+
+					<note>origination</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>origination</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>El superficie de un agujero negro.</note>
+					<note>Oxford2003</note>
+
+					<termSec>
+						<term>horizonte de sucesos</term>
+
+
+						<note>noun</note>
+
+						<note>En consecuencia, aquí, cuando nos estamos refiriendo a una
+							«singularidad», estamos pensando en una masa con volumen nulo rodeada de
+							una frontera gravitacional llamada «horizonte de sucesos», de la cual
+							nada puede escapar. </note>
+						<note>http://www.astrocosmo.cl/h-foton/h-foton-03_08-01.htm</note>
+
+					</termSec>
+					<termSec>
+						<term>horizonte de eventos</term>
+
+
+						<note>noun</note>
+
+						<note>InvestermSecadores de la Universidad de St. Andrews en Escocia,
+							afirman haber encontrado una forma de simular un horizonte de eventos de
+							un agujero negro – no a través de una nueva técnica de observación
+							cósmica, ni mediante una supercomputadora de alta potencia … sino en el
+							laboratorio.</note>
+						<note>http://www.cienciakanija.com/2008/02/14/horizonte-de-eventos-sintetico-de-un-agujero-negro-creado-en-un-laboratorio-del-reino-unido/</note>
+
+					</termSec>
+				</langSec>
+			</conceptEntry>
+
+
+			<conceptEntry id="c37">
+
+				<note>origination</note>
+				<note>2010-04-29</note>
+				<note>Tommy</note>
+
+
+				<note>modification</note>
+				<note>2010-05-01</note>
+				<note>Tommy</note>
+
+				<note>General</note>
+				<note>PP_Chain.jpg</note>
+				<note>G-Source: http://en.wikipedia.org/wiki/File:FusionintheSun.svg</note>
+				<langSec xml:lang="en">
+
+					<note>origination</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>origination</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>origination</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+					<termSec>
+						<term>proton-proton chain reaction</term>
+
+
+						<note>noun</note>
+						<note>admittedTerm-admn-sts</note>
+						<note>fullForm</note>
+
+						<note>The proton–proton chain reaction is one of several fusion reactions by
+							which stars convert hydrogen to helium, the primary alternative being
+							the CNO cycle. The proton–proton chain dominates in stars the size of
+							the Sun or smaller.</note>
+						<note>http://www.absoluteastronomy.com/topics/Proton-proton_chain_reaction</note>
+
+					</termSec>
+					<termSec>
+						<term>PP chain</term>
+
+
+						<note>noun</note>
+						<note>preferredTerm-admn-sts</note>
+						<note>shortForm</note>
+
+						<note>The primary reactions in the main branch of the PP chain are
+							illustrated in the following figure.</note>
+						<note>http://csep10.phys.utk.edu/astr162/lect/energy/ppchain.html</note>
+
+					</termSec>
+					<termSec>
+						<term>proton-proton reaction</term>
+
+
+						<note>noun</note>
+						<note>admittedTerm-admn-sts</note>
+						<note>variant</note>
+
+						<note>The gamma rays produced in the proton-proton reaction take one to 10
+							million years to work their way out from the star's core, being
+							scattered numerous times and losing energy as they go, until they emerge
+							from the surface as rays of light and heat. Inside the Sun, about 655
+							million tons of hydrogen are converted into 650 million tons of helium
+							every second. In stars heavier than about 2 solar masses, in which the
+							core temperature is more than about 18 million K, the dominant process
+							in which energy is produced by the fusion of hydrogen into helium is a
+							different reaction chain known as the carbon-nitrogen cycle. </note>
+						<note>http://www.daviddarling.info/encyclopedia/P/proton-proton_chain.html</note>
+
+					</termSec>
+				</langSec>
+				<langSec xml:lang="es">
+
+					<note>origination</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>Un conjunto de procesos nucleares mediante los cuales cuatro núcleos de
+						átomos de hidrógeno se combinan para formar uno de helio, produciendo gran
+						cantidad de energía.</note>
+					<note>http://www.avizora.com/publicaciones/astronomia/textos/glosario_astronomia_afines_0006.htm</note>
+
+					<termSec>
+						<term>cadena protón-protón</term>
+
+
+						<note>noun</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+
+
+			<conceptEntry id="c38">
+
+				<note>origination</note>
+				<note>2010-04-29</note>
+				<note>Tommy</note>
+
+
+				<note>modification</note>
+				<note>2010-05-01</note>
+				<note>Tommy</note>
+
+				<note>General</note>
+				<note>CNO_Cycle.jpg</note>
+				<note>G-Source: http://en.wikipedia.org/wiki/File:CNO_Cycle.svg</note>
+				<langSec xml:lang="en">
+
+					<note>origination</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>origination</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>origination</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>origination</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>origination</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>origination</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+					<termSec>
+						<term>carbon-nitrogen cycle</term>
+
+
+						<note>noun</note>
+						<note>admittedTerm-admn-sts</note>
+						<note>variant</note>
+
+						<note>The Helium burning process are important 1) Carbon-Nitrogen cycle at
+							which a carbon-12 nucleus (12C) capture proton and is converted into
+							13C, Nitrogen-4 and nitrogen –15. </note>
+						<note>http://www.sciencenews.org/view/generic/id/44769/title/Supernova_may_be_in_a_new_class</note>
+
+					</termSec>
+					<termSec>
+						<term>CNO cycle</term>
+
+
+						<note>noun</note>
+						<note>preferredTerm-admn-sts</note>
+						<note>shortForm</note>
+
+						<note>For stars heavier than the sun, theoretical models show that the CNO
+							(carbon-nitrogen-oxygen) cycle of nuclear fusion is the dominant source
+							of energy generation.</note>
+						<note>http://nobelprize.org/nobel_prizes/physics/articles/fusion/sun_cno.html</note>
+
+					</termSec>
+					<termSec>
+						<term>carbon-nitrogen-oxygen cycle</term>
+
+
+						<note>noun</note>
+						<note>admittedTerm-admn-sts</note>
+						<note>variant</note>
+
+						<note>For stars heavier than the sun, theoretical models show that the CNO
+							(carbon-nitrogen-oxygen) cycle of nuclear fusion is the dominant source
+							of energy generation.</note>
+						<note>http://nobelprize.org/nobel_prizes/physics/articles/fusion/sun_cno.html</note>
+
+					</termSec>
+					<termSec>
+						<term>Bethe-Weizsäcker-cycle</term>
+
+
+						<note>noun</note>
+						<note>admittedTerm-admn-sts</note>
+
+						<note>Dr. von Weizsäcker is best known in science for what is sometimes
+							called the Bethe-Weizsäcker cycle, proposed by him and the physicist
+							Hans Bethe in the late 1930s as the nuclear reactive process by which
+							energy is generated in stars. </note>
+						<note>http://www.nytimes.com/2007/05/02/world/europe/02weizsacker.html</note>
+
+					</termSec>
+					<termSec>
+						<term>carbon cycle</term>
+
+
+						<note>noun</note>
+						<note>deprecatedTerm-admn-sts</note>
+						<note>variant</note>
+
+						<note>The main theme of the carbon cycle is the adding of protons, but after
+							a carbon-12 nucleus fuses with a proton to form nitrogen-13, one of the
+							protons decays with the emission of a positron and a neutrino to form
+							carbon -13.</note>
+						<note>http://hyperphysics.phy-astr.gsu.edu/HBASE/Astro/carbcyc.html</note>
+
+						<note>The carbon cycle can also refer to the biogeochemical cycle by which
+							carbon is exchanged among the biosphere, pedosphere, geosphere,
+							hydrosphere, and atmosphere of the Earth.</note>
+						<note>N-Source: http://en.wikipedia.org/wiki/Carbon_cycle</note>
+					</termSec>
+					<termSec>
+						<term>CN cycle</term>
+
+
+						<note>noun</note>
+						<note>admittedTerm-admn-sts</note>
+						<note>variant</note>
+
+						<note>We argue that it may be possible to exploit neutrinos from the CN
+							cycle and p-p chain to determine the primordial solar core abundances of
+							C and N at an interesting level of precision.</note>
+						<note>http://iopscience.iop.org/0004-637X/687/1/678</note>
+
+					</termSec>
+				</langSec>
+				<langSec xml:lang="es">
+
+					<note>origination</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>origination</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>origination</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>origination</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+					<termSec>
+						<term>ciclo CNO</term>
+
+
+						<note>noun</note>
+						<note>admittedTerm-admn-sts</note>
+						<note>shortForm</note>
+
+						<note>Existen dos formas fundamentales en las que una estrella fusiona
+							hidrógeno para producir helio: la cadena protón-protón y el ciclo
+							CNO.</note>
+						<note>http://eltamiz.com/2007/09/06/la-vida-privada-de-las-estrellas-las-entranas-de-una-estrella/</note>
+
+					</termSec>
+					<termSec>
+						<term>ciclo del carbono-nitrógeno-oxígeno</term>
+
+
+						<note>noun</note>
+						<note>deprecatedTerm-admn-sts</note>
+						<note>fullForm</note>
+
+						<note>No se pretende copiar los complicados ciclos de reacciones que se dan
+							en el interior de las estrellas, como la cadena protón-protón o el ciclo
+							del carbono-nitrógeno-oxígeno (esta última más importante en las
+							estrellas más masivas que el Sol). </note>
+						<note>http://www.zaragoza.es/ciudad/conocimiento/zivis/aplicaciones.htm</note>
+
+					</termSec>
+					<termSec>
+						<term>ciclo del carbono</term>
+
+
+						<note>noun</note>
+						<note>deprecatedTerm-admn-sts</note>
+						<note>variant</note>
+
+						<note>El ciclo del carbono comienza y acaba con un núcleo de carbono 12 que
+							actúa como catalizador en la producción de un núcleo de helio a partir
+							de núcleos de hidrógeno; también se producen neutrinos y rayos gamma. </note>
+						<note>http://www.astromia.com/glosario/ciclocno.htm</note>
+
+						<note>También este término puede referirse a la formación de las moléculas
+							de carbohidratos, lípidos, proteínas y ácidos nucleicos.</note>
+						<note>N-Source: http://es.wikipedia.org/wiki/Ciclo_del_carbono</note>
+					</termSec>
+					<termSec>
+						<term>ciclo del carbono-nitrógeno</term>
+
+
+						<note>noun</note>
+						<note>preferredTerm-admn-sts</note>
+						<note>variant</note>
+
+						<note>En las estrellas de gran masa, que queman su hidrógeno mucho más
+							rápidamente, predomina el ciclo del carbono-nitrógeno (CN).</note>
+						<note>http://www.aavbae.net/bol17/evolucion.php</note>
+
+					</termSec>
+				</langSec>
+			</conceptEntry>
+
+
+			<conceptEntry id="c39">
+
+				<note>origination</note>
+				<note>2010-04-29</note>
+				<note>Tommy</note>
+
+
+				<note>modification</note>
+				<note>2010-05-01</note>
+				<note>Tommy</note>
+
+				<note>General</note>
+				<langSec xml:lang="en">
+
+					<note>origination</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>A state of matter attained when atomic particles are packed together as
+						termSechtly as is physically possible, at densities of several thousand
+						tonnes per cubic metre.</note>
+					<note>Oxford2007</note>
+
+					<termSec>
+						<term>degeneracy</term>
+
+
+						<note>noun</note>
+
+						<note>Although Eddington raised doubts at the meeting about the concept of
+							relativistic degeneracy, astronomy has since found that all white dwarfs
+							for which masses have been measured fall neatly below the Chandrasekhar
+							limit without exception. Today there are no doubts about his work on
+							degeneracy. </note>
+						<note>http://www.tamil.net/people/andrew/subra.htm</note>
+
+					</termSec>
+				</langSec>
+				<langSec xml:lang="es">
+
+					<note>origination</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>Estado de la materia producido cuando las partículas atómicas tienen el
+						mayor empaquetamiento físicamente posible, con densidades de varios miles de
+						toneladas por centímetro cúbico. </note>
+					<note>http://www.emiliosilveravazquez.com/glosario.php?letra=d</note>
+
+					<termSec>
+						<term>degeneración</term>
+
+
+						<note>noun</note>
+
+						<note>Estas estrellas son aún más densas que las enanas blancas, y más
+							pequeñas. Se mantienen por un proceso de "degeneración de neutrones" o
+							"repulsión de neutrones".</note>
+						<note>http://www.austrinus.com/index.php?option=com_content&amp;view=article&amp;id=157&amp;Itemid=112</note>
+
+					</termSec>
+				</langSec>
+			</conceptEntry>
+
+
+			<conceptEntry id="c40">
+
+				<note>origination</note>
+				<note>2010-04-29</note>
+				<note>Tommy</note>
+
+
+				<note>modification</note>
+				<note>2010-04-29</note>
+				<note>Tommy</note>
+
+				<langSec xml:lang="zu">
+
+					<note>origination</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+					<termSec>
+						<term>Oxford2003</term>
+
+
+						<note>Author[s]: Ridpath, Ian</note>
+						<note>Book Title: Astronomía</note>
+						<note>Publication Place: Spain</note>
+						<note>Publisher: Oxford University Press</note>
+						<note>Publication Year: 2003</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+
+
+			<conceptEntry id="c41">
+
+				<note>origination</note>
+				<note>2010-04-29</note>
+				<note>Tommy</note>
+
+
+				<note>modification</note>
+				<note>2010-05-01</note>
+				<note>Tommy</note>
+
+				<note>Stellar Death</note>
+				<langSec xml:lang="en">
+
+					<note>origination</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>The state of degeneracy attained when the density of matter is so high
+						that electrons cannot be packed any closer together.</note>
+					<note>Oxford2007</note>
+
+					<note>Electron degeneracy supports white dwarf stars against further
+						collapse.</note>
+					<note>N-Source: Oxford2007</note>
+					<termSec>
+						<term>electron degeneracy</term>
+
+
+						<note>noun</note>
+
+						<note>When it reaches the threshold of energy necessary to force the
+							combining of electrons and protons to form neutrons, the electron
+							degeneracy limit has been passed and the collapse continues until it is
+							stopped by neutron degeneracy.</note>
+						<note>http://hyperphysics.phy-astr.gsu.edu/HBASE/Astro/pulsar.html</note>
+
+					</termSec>
+				</langSec>
+				<langSec xml:lang="es">
+
+					<note>origination</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>origination</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>El estado de degeneración alcanzado cuando la densidad de materia es tan
+						grande, que los electrones no pueden empaquetarse más.</note>
+					<note>Oxford2003</note>
+
+					<termSec>
+						<term>degeneración de electrones</term>
+
+
+						<note>noun</note>
+						<note>admittedTerm-admn-sts</note>
+
+						<note>Es la principal responsable de la resistencia al colapso gravitacional
+							de las enanas blancas (degeneración de electrones) y de las estrellas de
+							neutrones (degeneración de neutrones). </note>
+						<note>http://www.emiliosilveravazquez.com/glosario.php?letra=d</note>
+
+					</termSec>
+					<termSec>
+						<term>degeneración electrónica</term>
+
+
+						<note>noun</note>
+						<note>admittedTerm-admn-sts</note>
+
+						<note>Las fuerzas gravitatorias actuantes en un cuerpo celeste masivo pueden
+							comprimir su materia hasta un estado de degeneración electrónica y no
+							más, ya que el principio de exclusión impide a dos electrones ocupar el
+							mismo nivel de energía. </note>
+						<note>http://www.portalplanetasedna.com.ar/estrella2.htm</note>
+
+					</termSec>
+				</langSec>
+			</conceptEntry>
+
+
+			<conceptEntry id="c42">
+
+				<note>origination</note>
+				<note>2010-04-29</note>
+				<note>Tommy</note>
+
+
+				<note>modification</note>
+				<note>2010-05-01</note>
+				<note>Tommy</note>
+
+				<note>General</note>
+				<note>Event_Horizon.jpg</note>
+				<note>G-Source:
+					http://www.astro.cornell.edu/academics/courses/astro2201/images/bh_structure.gif</note>
+				<langSec xml:lang="en">
+
+					<note>origination</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>A mathematical point at which certain physical quantities reach infinite
+						values.</note>
+					<note>Oxford2007</note>
+
+					<termSec>
+						<term>singularity</term>
+
+
+						<note>noun</note>
+
+						<note>A singularity means a point where some property is infinite. For
+							example, at the center of a black hole, according to classical theory,
+							the density is infinite (because a finite mass is compressed to a zero
+							volume). Hence it is a singularity. </note>
+						<note>http://curious.astro.cornell.edu/question.php?number=55</note>
+
+						<note>Related Term: black hole, event horizon, Schwarzschild radius</note>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="es">
+
+					<note>origination</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>Un punto matemático en el que ciertas cantidades físicas alcanzan valores
+						infinitos.</note>
+					<note>Oxford2003</note>
+
+					<termSec>
+						<term>singularidad</term>
+
+
+						<note>noun</note>
+
+						<note>Las singularidades ocurren en el Big Bang, en los agujeros negros y en
+							el Big Crunch (que podría ser considerado como una unión de agujeros
+							negros).</note>
+						<note>http://www.astrocosmo.cl/h-foton/h-foton-03_08-01.htm</note>
+
+						<note>Related Term: agujero negro, horizonte de sucesos, radio de
+							Schwarzschild</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+
+
+			<conceptEntry id="c43">
+
+				<note>origination</note>
+				<note>2010-04-29</note>
+				<note>Tommy</note>
+
+
+				<note>modification</note>
+				<note>2010-04-29</note>
+				<note>Tommy</note>
+
+				<note>General</note>
+				<note>Solar_Mass.jpg</note>
+				<note>G-Source: http://en.wikipedia.org/wiki/Solar_mass</note>
+				<note>In this graphic, the M with a subscript is the symbol for a solar mass.</note>
+				<note>N-Source: Jonathan Tomolonis</note>
+				<langSec xml:lang="en">
+
+					<note>origination</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>A unit of mass used in stellar and galactic astronomy, equivalent to the
+						mass of the sun, 1.989 x 10^30 kg.</note>
+					<note>Oxford2007</note>
+
+					<termSec>
+						<term>solar mass</term>
+
+
+						<note>noun</note>
+
+						<note>This page now explores the fate of stars of 8 solar masses or
+							less.</note>
+						<note>http://outreach.atnf.csiro.au/education/senior/astrophysics/stellarevolution_deathlow.html</note>
+
+					</termSec>
+				</langSec>
+				<langSec xml:lang="es">
+
+					<note>origination</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>Una unidad de medida utilizada en astronomía y astrofísica para medir
+						comparativamente la masa de las estrellas y otros objetos astronómicos muy
+						masivos como galaxias.</note>
+					<note>http://es.wikipedia.org/wiki/Masa_solar</note>
+
+					<termSec>
+						<term>masa solar</term>
+
+
+						<note>noun</note>
+
+						<note>Para una nube con la masa de nuestro Sol, el colapso dura unos 10
+							millones de años, mientras que si su masa fuese mucho más pequeña, por
+							ejemplo un décimo de la masa solar, este proceso podría durar hasta 800
+							millones de años.</note>
+						<note>http://www.tayabeixo.org/sist_solar/hipotesis/formacion_sistsolar.htm</note>
+
+					</termSec>
+				</langSec>
+			</conceptEntry>
+
+
+			<conceptEntry id="c44">
+				<note>General</note>
+
+				<note>origination</note>
+				<note>2010-04-29</note>
+				<note>Tommy</note>
+
+
+				<note>modification</note>
+				<note>2010-04-29</note>
+				<note>Tommy</note>
+
+
+				<note>Triple-Alpha_Process.jpg</note>
+				<note>G-Source:
+					http://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Triple-Alpha_Process.svg/750px-Triple-Alpha_Process.svg.png</note>
+				<langSec xml:lang="en">
+
+
+					<note>origination</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>The chain of nuclear reactions by which carbon is synthesized in the
+						interiors of stars through the fusion of three helium nuclei(alpha
+						particles).</note>
+					<note>Oxford2007</note>
+
+					<termSec>
+						<term>triple-alpha process</term>
+
+
+						<note>noun</note>
+
+						<note>This small concentration of Be-8 can begin to undergo reactions with
+							other He-4 nuclei to produce an excited state of the mass-12 isotope of
+							Carbon. This excited state is unstable, but a few of these excited
+							Carbon nuclei emit a gamma-ray quickly enough to become stable before
+							they disintegrate. This extremely improbable sequence is called the
+							triple-alpha process because the net effect is to combine 3 alpha
+							particles (that is, 3 He-4 nuclei) to form a C-12 nucleus. </note>
+						<note>http://csep10.phys.utk.edu/astr162/lect/energy/triplealph.html</note>
+
+					</termSec>
+				</langSec>
+				<langSec xml:lang="es">
+
+					<note>origination</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>El proceso por el cual tres núcleos de helio (partículas alfa) se
+						transforman en un núcleo de carbono.</note>
+					<note>http://es.wikipedia.org/wiki/Proceso_triple-alfa</note>
+
+					<termSec>
+						<term>proceso triple-alfa</term>
+
+
+						<note>noun</note>
+
+						<note>También debe tenerse en cuenta una tercera reacción de gran
+							importancia, denominada proceso triple alfa.</note>
+						<note>http://feinstein.com.ar/Composicion.html</note>
+
+					</termSec>
+				</langSec>
+			</conceptEntry>
+
+
+			<conceptEntry id="c45">
+
+				<note>origination</note>
+				<note>2010-04-29</note>
+				<note>Tommy</note>
+
+
+				<note>modification</note>
+				<note>2010-04-29</note>
+				<note>Tommy</note>
+
+				<note>General</note>
+				<note>Black_Dwarf.jpg</note>
+				<note>G-Source:
+					http://www.dorlingkindersley-uk.co.uk/static/clipart/uk/dk/sci_space/image_sci_space013.jpg</note>
+				<langSec xml:lang="en">
+
+					<note>origination</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>A degenerate star that has cooled until it is no longer visible.</note>
+					<note>Oxford2007</note>
+
+					<termSec>
+						<term>black dwarf</term>
+
+
+						<note>noun</note>
+
+						<note>Banprupt though it is, a white swarf still has a high surface
+							temperature when it is first formed; up to 100,000 degrees C in some
+							cases and it continues to radiate. Gradually it fades, and must end up
+							as a cold, dead black dwarf; but at the moment no white dwarf with a
+							surface temperature of below 3,000 degrees C has been found, and it may
+							be that the universe is not yet old enough for any black dwarfs to have
+							been formed.</note>
+						<note>Moore2003, 173</note>
+
+					</termSec>
+				</langSec>
+				<langSec xml:lang="es">
+
+					<note>origination</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>modification</note>
+					<note>2010-04-29</note>
+					<note>Tommy</note>
+
+
+					<note>Una estrella creada cuando una enana blanca se enfría lo suficiente como
+						para dejar de emitir calor o luz en cantidad significativa.</note>
+					<note>http://spaceplace.nasa.gov/sp/kids/spitzer/signs/sign_glossary.shtml</note>
+
+					<termSec>
+						<term>enana negra</term>
+
+
+						<note>noun</note>
+
+						<note>No se conoce, todavía, la cantidad de Enanas Negras que pueblan en
+							realidad nuestro Universo. El tiempo estimado para que una Enana Blanca
+							se enfríe lo suficiente para volverse Negra, se estima entre diez y cien
+							mil millones de años, y nuestro Universo no es aún lo bastante viejo,
+							nada más que para que existan algunas enanas blancas que se han enfriado
+							lo suficiente para alcanzar la etapa de enanas negras.</note>
+						<note>http://celestia.albacete.org/celestia/celestia/stars/enana12.htm</note>
+
+					</termSec>
+				</langSec>
+			</conceptEntry>
+		</body>
+		<back>
+			<refObjectSec type="respPerson">
+				<refObject id="pe324as3-9615-4d41-a9c8-30c36bffe0e6">
+					<item type="fn">Tommy Tomolonis</item>
+				</refObject>
+			</refObjectSec>
+		</back>
+	</text>
+
+</tbx>

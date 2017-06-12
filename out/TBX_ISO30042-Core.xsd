@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://www.iso.org/ns/TBX" xmlns:tbx="http://www.iso.org/ns/TBX">
+  <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
+  <!--
+    Schema generated from ODD source 2017-06-07T11:21:38Z. .
+    TEI Edition: Version 2.8.0. Last updated on
+    	6th April 2015, revision 13197
+    TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 2.8.0/
+    
+  -->
+  <!---->
+  <xs:complexType name="entity.basicText" mixed="true">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="tbx:hi"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="entity.noteText" mixed="true">
+    <xs:choice minOccurs="0" maxOccurs="unbounded">
+      <xs:element ref="tbx:hi"/>
+      <xs:element ref="tbx:foreign"/>
+      <xs:element ref="tbx:bpt"/>
+      <xs:element ref="tbx:ept"/>
+      <xs:element ref="tbx:ph"/>
+    </xs:choice>
+  </xs:complexType>
+  <xs:group name="entity.auxInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="tbx:note"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="entity.noteLinkInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="tbx:note"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:attributeGroup name="idlang.attributes">
+    <xs:attributeGroup ref="tbx:id.attributes"/>
+    <xs:attributeGroup ref="tbx:lang.attributes"/>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="idtype.attributes">
+    <xs:attributeGroup ref="tbx:id.attributes"/>
+    <xs:attributeGroup ref="tbx:idtype.attribute.type"/>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="idtype.attribute.type">
+    <xs:attribute name="type">
+      <xs:annotation>
+        <xs:documentation>Indicates the type of the meta data-category.</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="id.attributes">
+    <xs:attributeGroup ref="tbx:id.attribute.id"/>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="id.attribute.id">
+    <xs:attribute name="id">
+      <xs:annotation>
+        <xs:documentation/>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="target-IDREF.attributes">
+    <xs:attributeGroup ref="tbx:target-IDREF.attribute.target"/>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="target-IDREF.attribute.target">
+    <xs:attribute name="target">
+      <xs:annotation>
+        <xs:documentation/>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="lang.attributes">
+    <xs:attributeGroup ref="tbx:lang.attribute.xmllang"/>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="lang.attribute.xmllang">
+    <xs:attributeGroup ref="xml:lang"/>
+  </xs:attributeGroup>
+  <xs:element name="hi">
+    <xs:annotation>
+      <xs:documentation>Highlights a segment of text and optionally points to another element.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType mixed="true">
+      <xs:attributeGroup ref="tbx:target-IDREF.attributes"/>
+      <xs:attributeGroup ref="tbx:lang.attributes"/>
+      <xs:attribute name="type">
+        <xs:annotation>
+          <xs:documentation/>
+        </xs:annotation>
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="entailedTerm">
+              <xs:annotation>
+                <xs:documentation>(entailedTerm) A term, found in the content of a text element such as , that is defined in another terminological entry in the same terminological collection.</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="hotkey">
+              <xs:annotation>
+                <xs:documentation>(hotkey) A key or a combination of keys on a computer keyboard that, when pressed at one time, performs a task (such as starting an application) as an alternative to using a mouse or other input device. Hotkeys are supported by many operating systems and applications (the hotkey is indicated by an ampersand in the term and by an underscore in the visual display). This type of hi element allows a hotkey to be identified as such in a text field such as a context sentence. To identify a hotkey for the head term of an entry, use the lionHotkey value of the type attribute on a termNote.</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="italics">
+              <xs:annotation>
+                <xs:documentation>(italics) Indicates that the content enclosed in the hi element must be rendered in italics.</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="bold">
+              <xs:annotation>
+                <xs:documentation>(bold) Indicates that the content enclosed in the hi element must be rendered in boldface.</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="superscript">
+              <xs:annotation>
+                <xs:documentation>(superscript) Indicates that the content enclosed in the hi element must be rendered in superscript.</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="subscript">
+              <xs:annotation>
+                <xs:documentation>(subscript) Indicates that the content enclosed in the hi element must be rendered in subscript.</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="math">
+              <xs:annotation>
+                <xs:documentation>(math) Indicates that the content enclosed in the hi element is mathematical in nature.</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="foreign">
+    <xs:annotation>
+      <xs:documentation>Used to mark a segment of text that is in a different language from the surrounding text.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="tbx:entity.noteText">
+          <xs:attributeGroup ref="tbx:idlang.attributes"/>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="bpt">
+    <xs:annotation>
+      <xs:documentation>The bpt tag encloses the beginning tag of a tag pair.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType mixed="true">
+      <xs:attribute name="i">
+        <xs:annotation>
+          <xs:documentation/>
+        </xs:annotation>
+      </xs:attribute>
+      <xs:attribute name="type">
+        <xs:annotation>
+          <xs:documentation/>
+        </xs:annotation>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ept">
+    <xs:annotation>
+      <xs:documentation>The ept tag encloses the beginning tag of a tag pair.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType mixed="true">
+      <xs:attribute name="i">
+        <xs:annotation>
+          <xs:documentation/>
+        </xs:annotation>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ph">
+    <xs:annotation>
+      <xs:documentation>Placeholder - Used to encapsulate markup codes that do not occur in logical pairs with other codes. Examples include the XHTML  and  tags. This element should not be used to encapsulate codes that occur in pairs (such as the XHTML  and  tags), which should instead be encapuslated with bpt and ept.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType mixed="true">
+      <xs:attribute name="type">
+        <xs:annotation>
+          <xs:documentation/>
+        </xs:annotation>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="conceptEntry">
+    <xs:annotation>
+      <xs:documentation>The root element of a terminological entry. It shall contain at least one language section.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:group ref="tbx:entity.auxInfo"/>
+        <xs:element maxOccurs="unbounded" ref="tbx:langSec"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="tbx:id.attributes"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="date">
+    <xs:sequence>
+      <xs:element ref="tbx:date"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="date">
+    <xs:annotation>
+      <xs:documentation>A date in ISO format. Permissible date values comply with ISO 8601 and shall use the format yyyy-mm-dd. The date element is used with terminology management data-categories in a transacGrp element.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="tbx:date">
+          <xs:attributeGroup ref="tbx:id.attributes"/>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="langSec">
+    <xs:annotation>
+      <xs:documentation>A nesting element that contains all the information in a terminological entry pertaining to one language, including all the termSec elements (terms and associated information) for that language.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:group ref="tbx:entity.auxInfo"/>
+        <xs:element maxOccurs="unbounded" ref="tbx:termSec"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="xml:lang1"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="note">
+    <xs:annotation>
+      <xs:documentation>Any kind of note. </xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="tbx:entity.noteText">
+          <xs:attributeGroup ref="tbx:idlang.attributes"/>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="term">
+    <xs:annotation>
+      <xs:documentation>The term that is being described in a termSec. This element, as well as other term-like elements such as those mentioned in the table Types of terms, relations to terms in section 9, can contain a hi element to allow a limited amount of inline markup. This is intended to handle markup requirements in special cases such as may be required for terms that represent scientific concepts. However, it is strongly recommended to use inline markup only when necessary to represent the term in its base form. Do not use the hi element for presentational styles chosen for esthetic purposes.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="tbx:entity.basicText">
+          <xs:attributeGroup ref="tbx:id.attributes"/>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="termComp">
+    <xs:annotation>
+      <xs:documentation>A term component. It includes the text of a part of a word (such as a morpheme or a syllable) or one of the words making up a multi-word term. The type of term component will depend on the value of the type attribute of the termCompSec element.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType mixed="true">
+      <xs:attributeGroup ref="tbx:idlang.attributes"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="termCompGrp">
+    <xs:annotation>
+      <xs:documentation>A grouping element that includes one termComp plus additional elements describing the term component, such as notes, administrative information, and cross references.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="tbx:termComp"/>
+        <xs:group ref="tbx:entity.noteLinkInfo"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="tbx:id.attributes"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="termCompSec">
+    <xs:annotation>
+      <xs:documentation>A grouping element that contains at least one termComp element (usually more) or at least one termCompGrp element plus optionally some additional information about the term components. This element is designed to contain the components of a term. The value of the type attribute indicates what type of term components it contains.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:group ref="tbx:entity.auxInfo"/>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element ref="tbx:termComp"/>
+          <xs:element ref="tbx:termCompGrp"/>
+        </xs:choice>
+      </xs:sequence>
+      <xs:attributeGroup ref="tbx:id.attributes"/>
+      <xs:attribute name="type" use="required">
+        <xs:annotation>
+          <xs:documentation>Indicates the type of the termCompSec, such as hyphenation. The value indicates on what basis the term components were identified, such as by hyphenation parts or by syllables.</xs:documentation>
+        </xs:annotation>
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="hyphenation">
+              <xs:annotation>
+                <xs:documentation>(Hyphenation) The termComp elements contain the parts of a term as it would be hyphenated, such as at the end of a line, according to a given set of rules.</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="lemma">
+              <xs:annotation>
+                <xs:documentation>(Lemma) The termComp elements contain the base form of the term or of the individual words that it comprises. A base form of a word or term, sometimes called a lemma, is the form that is used as the formal dictionary entry for the term. For nouns, the base form is frequently the nominative singular form (in languages that show variation by case). For adjectives it is the positive form of the adjective, as opposed to the comparative, and in some languages it is uninflected, whereas in others it is the masculine singular. For verbs, it is generally the infinitive.</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="morphologicalElement">
+              <xs:annotation>
+                <xs:documentation>(Morphological element) The termComp elements contain the individual morphemes that comprise the term. .</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="syllabification">
+              <xs:annotation>
+                <xs:documentation>(Syllabification) The termComp elements contain the individual syllables that comprise the term.</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="termElement">
+              <xs:annotation>
+                <xs:documentation>(Term element) The termComp elements contain any other logically significant portion of the term.</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="termSec">
+    <xs:annotation>
+      <xs:documentation>A term information group. A grouping element that contains child elements describing a term. It is often referred to as the term section.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="tbx:term"/>
+        <xs:group ref="tbx:entity.auxInfo"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="tbx:termCompSec"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="tbx:id.attributes"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="tbx">
+    <xs:annotation>
+      <xs:documentation>The root element of a TBX document instance.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="tbx:tbxHeader"/>
+        <xs:element ref="tbx:text"/>
+      </xs:sequence>
+      <xs:attribute name="type" use="required">
+        <xs:annotation>
+          <xs:documentation>Indicates the type of tbx document. If the type attribute value TBX is used, then the TBX document instance shall adhere to the default XCS file. If the TBX document instance adheres to another XCS file, then the type attribute value can consist of TBX- plus another word associated with the XCS file, such as 'TBX-Basic'.</xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+      <xs:attribute name="style" use="required">
+        <xs:annotation>
+          <xs:documentation>Indicates the style of tbx document, whether it is Data Category as Tag (DCT) or Data Category as Attribute (DCA). The allowed values are either 'dca' or 'dct'.</xs:documentation>
+        </xs:annotation>
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="dca">
+              <xs:annotation>
+                <xs:documentation>Data Category as Attribute</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="dct">
+              <xs:annotation>
+                <xs:documentation>Data Category as Tag</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attributeGroup ref="xml:lang2"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="tbxHeader">
+    <xs:annotation>
+      <xs:documentation>A grouping element that contains child elements which describe the TBX document instance.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="tbx:fileDesc"/>
+        <xs:element minOccurs="0" ref="tbx:encodingDesc"/>
+        <xs:element minOccurs="0" ref="tbx:revisionDesc"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="tbx:id.attributes"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="p">
+    <xs:annotation>
+      <xs:documentation>Paragraph text that is contained by the tbxHeader. By using a type attribute, it can also contain essential information about the content or location of the XCS file.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="tbx:entity.noteText">
+          <xs:attributeGroup ref="tbx:idlang.attributes"/>
+          <xs:attribute name="type">
+            <xs:annotation>
+              <xs:documentation/>
+            </xs:annotation>
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="DCSName">
+                  <xs:annotation>
+                    <xs:documentation>The name of the XCS file that constrains the content of the TBX document instance.</xs:documentation>
+                  </xs:annotation>
+                </xs:enumeration>
+                <xs:enumeration value="XCSURI">
+                  <xs:annotation>
+                    <xs:documentation>The URI of the XCS file that constrains the content of the TBX document instance.</xs:documentation>
+                  </xs:annotation>
+                </xs:enumeration>
+                <xs:enumeration value="XCSContent">
+                  <xs:annotation>
+                    <xs:documentation>The content of an XCS file, embedded directly in the TBX document instance. Note that this content cannot be validated by the TBX DTD and therefore should be removed from the TBX document instance, or commented out, prior to such validation. </xs:documentation>
+                  </xs:annotation>
+                </xs:enumeration>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fileDesc">
+    <xs:annotation>
+      <xs:documentation>A nesting element containing child elements that describe the TBX document instance.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="tbx:titleStmt"/>
+        <xs:element minOccurs="0" ref="tbx:publicationStmt"/>
+        <xs:element maxOccurs="unbounded" ref="tbx:sourceDesc"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="tbx:id.attributes"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="titleStmt">
+    <xs:annotation>
+      <xs:documentation>A nesting element containing the title and any notes about the TBX document instance.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="tbx:title"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="tbx:note"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="tbx:idlang.attributes"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="title">
+    <xs:annotation>
+      <xs:documentation>The title of the TBX document instance.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType mixed="true">
+      <xs:attributeGroup ref="tbx:idlang.attributes"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="publicationStmt">
+    <xs:annotation>
+      <xs:documentation>Any information pertaining to the publication of the TBX document instance.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="tbx:p"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="tbx:id.attributes"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="sourceDesc">
+    <xs:annotation>
+      <xs:documentation>Any information about the source of the TBX document instance.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="tbx:p"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="tbx:idlang.attributes"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="encodingDesc">
+    <xs:annotation>
+      <xs:documentation>Includes a p element that itself contains a pointer to the XCS file and, if the TBX file is not in unicode, any information about the encoding.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="tbx:p"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="tbx:id.attributes"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="revisionDesc">
+    <xs:annotation>
+      <xs:documentation>Information about any revisions that have been carried out on the content of the TBX document instance or on the source database from which it is derived.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="tbx:change"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="tbx:idlang.attributes"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="change">
+    <xs:annotation>
+      <xs:documentation>Information about one particular change event in the revision history of a TBX document instance.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="tbx:p"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="tbx:idlang.attributes"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="text">
+    <xs:annotation>
+      <xs:documentation>The element of a TBX document instance that occurs after the tbx element. This element is provided to maintain compatibility with the TEI.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="tbx:body"/>
+        <xs:element minOccurs="0" ref="tbx:back"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="tbx:id.attributes"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="body">
+    <xs:annotation>
+      <xs:documentation>A nesting element that contains terminological entries (conceptEntry).</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="tbx:conceptEntry"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="tbx:id.attributes"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="back">
+    <xs:annotation>
+      <xs:documentation>The root element of the back matter of a TBX document instance.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="tbx:refObjectSec"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="tbx:id.attributes"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="refObjectSec">
+    <xs:annotation>
+      <xs:documentation>A list of objects that are referenced in the back matter of a TBX document instance.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="tbx:refObject"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="tbx:id.attributes"/>
+      <xs:attribute name="type" use="required">
+        <xs:annotation>
+          <xs:documentation/>
+        </xs:annotation>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="refObject">
+    <xs:annotation>
+      <xs:documentation>An element in the back matter of a TBX document instance that contains a series of items that describe one referenced object.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element ref="tbx:itemGrp"/>
+        <xs:element ref="tbx:item"/>
+      </xs:choice>
+      <xs:attributeGroup ref="tbx:id.attributes"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="item">
+    <xs:annotation>
+      <xs:documentation>One descriptor of an object in the back matter of a TBX document instance.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="tbx:entity.noteText">
+          <xs:attributeGroup ref="tbx:idtype.attributes"/>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="itemGrp">
+    <xs:annotation>
+      <xs:documentation>Contains one item element as well as additional child elements for associated administrative information.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="tbx:item"/>
+        <xs:group ref="tbx:entity.noteLinkInfo"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="tbx:id.attributes"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
